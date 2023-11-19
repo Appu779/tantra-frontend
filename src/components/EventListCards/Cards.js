@@ -33,8 +33,8 @@ function Cards(props) {
           </p>
         ) : (
           <p className="text-center">
-            <button className="bg-white font-mono text-black px-2 py-2 rounded-full">
-              Register Event
+            <button style={{cursor: "no-drop"}} className="bg-white font-mono text-black px-2 py-2 rounded-full">
+               Closed
             </button>
           </p>
           // null
