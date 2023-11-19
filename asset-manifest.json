@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tantra-frontend/static/css/main.bef16e6b.css",
-    "main.js": "/tantra-frontend/static/js/main.4fcdbbf9.js",
+    "main.js": "/tantra-frontend/static/js/main.6e218875.js",
     "static/media/poster.png": "/tantra-frontend/static/media/poster.ea3646fae71a1f331443.png",
     "static/media/Thanthra.png": "/tantra-frontend/static/media/Thanthra.d6a0a9dd432a44436b25.png",
     "static/media/humanities.jpg": "/tantra-frontend/static/media/humanities.ddbc9e318615d213cb39.jpg",
@@ -17,10 +17,10 @@
     "index.html": "/tantra-frontend/index.html",
     "static/media/DropDownIcon.svg": "/tantra-frontend/static/media/DropDownIcon.3ba1ddb4652873871680.svg",
     "main.bef16e6b.css.map": "/tantra-frontend/static/css/main.bef16e6b.css.map",
-    "main.4fcdbbf9.js.map": "/tantra-frontend/static/js/main.4fcdbbf9.js.map"
+    "main.6e218875.js.map": "/tantra-frontend/static/js/main.6e218875.js.map"
   },
   "entrypoints": [
     "static/css/main.bef16e6b.css",
-    "static/js/main.4fcdbbf9.js"
+    "static/js/main.6e218875.js"
   ]
 }
