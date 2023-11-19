@@ -33,7 +33,7 @@ function RegisterB() {
     };
 
     // const url = "https://tantra.herokuapp.com/register"
-    const url = "https://cautious-waistcoat-mite.cyclic.app/register";
+    const url = "https://busy-plum-salmon-shoe.cyclic.app/register";
     const navigate = useNavigate();
     const { state } = useLocation();
     const { name, fee, dept, event_id, group } = state;
