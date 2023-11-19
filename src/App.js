@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, HashRouter } from "react-router
 import ThanksPage from './pages/register/thanks';
 import PageNotFound from './components/pageNotFound/PageNotFound';
 import RegisterB from './pages/register/RegisterB';
+
 import {
   AdsEvents,
   AeiEvents,
@@ -18,11 +19,32 @@ import {
 
 import AdminLogin from './pages/admin/AdminLogin';
 import AdminHome from './pages/admin/AdminHome';
+import { useEffect, useState } from "react";
 
+import Loader from "./components/loader/Loader";
 
 function App() {
+
+  const [loading, setLoading] = useState(true);
   const user = localStorage.getItem("token");
-  return (
+  useEffect(() => {
+    const handleLoad = () => {
+      // When the entire website is loaded, hide the loader
+      setLoading(false);
+    };
+
+    // Add event listener for the load event
+    window.addEventListener('load', handleLoad);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('load', handleLoad);
+    };
+  }, []);
+
+  return loading ? (
+    <Loader />
+  ) : (
     <HashRouter >
       {/* <Router>  */}
       <Routes>
@@ -39,7 +61,7 @@ function App() {
         <Route exact path='/register' element={<RegisterB />} />
         <Route exact path='/thanks' element={<ThanksPage />} />
         {user && <Route path="/admin" exact element={<AdminHome />} />}
-        <Route exact path='/admin' element={<AdminLogin />} /> 
+        <Route exact path='/admin' element={<AdminLogin />} />
         <Route exact path='/*' element={<PageNotFound />} />
       </Routes>
       {/* </Router> */}
