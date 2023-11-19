@@ -58,6 +58,25 @@ const CardsData = [
     explore: "/ads-events",
   },
   {
+    imgsrc: ADS,
+    title: "Computer Science And Design",
+    text: "Events conducted by Department of Computer Science And Design",
+    explore: "/csd-events",
+  },
+  {
+    imgsrc: ADS,
+    title: "Computer Science And Business",
+    text: "Events conducted by Department of Computer Science And Business",
+    explore: "/csbs-events",
+  },
+  {
+    imgsrc: ADS,
+    title: "Computer Science And Cyber Secuirity",
+    text: "Events conducted by Department of Computer Science And Cyber Secuirity",
+    explore: "/cscy-events",
+  },
+
+  {
     imgsrc: Games,
     title: "Common Events",
     text: "Events common for all...",
