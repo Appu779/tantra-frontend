@@ -46,14 +46,14 @@
 }
 
 .event_container {
-  max-width: 1300px;
+  /* max-width: 1300px;
   margin-top: 5%;
-  margin-left: 13.7%;
+  margin-left: 13.7%; */
   /* margin-right: 13.7%; */
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 350px);
-  grid-gap: 60px;
-  padding-bottom: 5rem;
+
+  padding-bottom: 5rem; */
 }
 
 .event_title {
