@@ -50,9 +50,8 @@ function Cards(props) {
               ) : (
                 <button
                   className="mt-3 rounded-md bg-neutral-800 px-2 py-1 text-sm hover:bg-neutral-900 cursor-not-allowed"
-                  onClick={() => navigate("/register", { state: eventData })}
                 >
-                  Register Event
+                  Closed
                 </button>
               )}
             </div>
