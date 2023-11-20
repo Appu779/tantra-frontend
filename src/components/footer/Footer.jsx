@@ -44,7 +44,7 @@ function Footer() {
           </ul>
         </div>
         <div className="col-span-2 sm:col-span-1 pl-20 sm:pl-0 sm:w-2/3 sm:mx-auto">
-         <a href="https://maps.app.goo.gl/MTAuhiGcovmXgkTd7"><p>Jyothi Nagar, Chemperi (P.O) Kannur 670632, Kerala, India</p></a> 
+         <a href="https://maps.app.goo.gl/MTAuhiGcovmXgkTd7" target="_blank"><p>Jyothi Nagar, Chemperi (P.O) Kannur 670632, Kerala, India</p></a> 
         </div>
         <p className="absolute -rotate-90 text-md text-gray-900 font-sans right-0 hidden sm:block">
           tantra'23
@@ -55,12 +55,12 @@ function Footer() {
         <div><a href="mailto:webteamtantra@gmail.com">webteamtantra@gmail.com</a></div>
         <ul className="flex gap-4 sm:gap-10 sm:pr-24">
           <li>
-            <a href="https://www.instagram.com/tantra._23/">
+            <a href="https://www.instagram.com/tantra._23/" target="_blank">
               <InstagramIcon />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/tantra-techfest-1a2381258/">
+            <a href="https://www.linkedin.com/in/tantra-techfest-1a2381258/" target="_blank">
               <LinkedInIcon />
             </a>
           </li>

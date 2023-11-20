@@ -8,7 +8,9 @@ import CseEventData from '../../data/departmentEvents/CseEventData';
 import EceEventData from '../../data/departmentEvents/EceEventData';
 import MechanicalEventData from '../../data/departmentEvents/MechanicalEventData.js';
 import EeeEventData from '../../data/departmentEvents/EeeEventData';
-
+import CsdEventData from "../../data/departmentEvents/CsdEventData.js";
+import CsbsEventData from "../../data/departmentEvents/CsbsEventData.js";
+import CscyEventData from "../../data/departmentEvents/CscyEventData.js";
 export const AdsEvents = () => {
     return (
         <Events eventsData={AdsEventData} />
@@ -60,5 +62,20 @@ export const MeEvents = () => {
 export const EeeEvents = () => {
     return (
         <Events eventsData={EeeEventData} />
+    )
+}
+export const CsdEvents = () => {
+    return (
+        <Events eventsData={CsdEventData} />
+    )
+}
+export const CsbsEvents = () => {
+    return (
+        <Events eventsData={CsbsEventData} />
+    )
+}
+export const CscyEvents = () => {
+    return (
+        <Events eventsData={CscyEventData} />
     )
 }

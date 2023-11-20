@@ -10,6 +10,9 @@ import {
   AshEvents,
   CeEvents,
   CommEvents,
+  CsbsEvents,
+  CscyEvents,
+  CsdEvents,
   CseEvents,
   EceEvents,
   EeeEvents,
@@ -35,6 +38,9 @@ function App() {
         <Route exact path='/eee-events' element={<EeeEvents />} />
         <Route exact path='/ash-events' element={<AshEvents />} />
         <Route exact path='/ads-events' element={<AdsEvents />} />
+        <Route exact path='/csd-events' element={<CsdEvents />} />
+        <Route exact path='/csbs-events' element={<CsbsEvents />} />
+        <Route exact path='/cscy-events' element={<CscyEvents />} />
         <Route exact path='/com-events' element={<CommEvents />} />
         <Route exact path='/register' element={<RegisterB />} />
         <Route exact path='/thanks' element={<ThanksPage />} />
