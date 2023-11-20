@@ -8,9 +8,7 @@ function Cards(props) {
   let eventData = props.data;
   return (
     <div className="w-72 p-4 rounded-3xl overflow-hidden shadow-lg bg-gray-200">
-      <div className="h-44 w-30 rounded-xl bg-white">
-        
-      </div>
+      <div className="h-44 w-30 rounded-xl bg-white"></div>
       <div className="pt-5">
         <div className="text-center font-bold font-mono text-3xl mb-2 h-16">
           {props.data.name}
@@ -33,8 +31,8 @@ function Cards(props) {
           </p>
         ) : (
           <p className="text-center">
-            <button style={{cursor: "no-drop"}} className="bg-white font-mono text-black px-2 py-2 rounded-full">
-               Closed
+            <button className="bg-white font-mono text-black px-2 py-2 rounded-full">
+              Register Event
             </button>
           </p>
           // null
