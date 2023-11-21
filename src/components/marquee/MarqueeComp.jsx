@@ -1,10 +1,6 @@
 import Marquee from "react-fast-marquee";
 
-const MarqueeComp = ({
-  word = "| TANTRA'23 |",
-  mdir = "left",
-  rot = "rotate-0",
-}) => {
+const MarqueeComp = ({ word, mdir = "left", rot = "rotate-0" }) => {
   return (
     <div className={rot + " w-full"}>
       <Marquee
