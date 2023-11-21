@@ -9,14 +9,29 @@ const MarqueeComp = ({
     <div className={rot + " w-full"}>
       <Marquee
         loop={0}
-        speed={50}
+        speed={60}
         autoFill
         direction={mdir}
-        gradient
-        gradientColor="rgba(255, 255, 255, 0.3)"
-        gradientWidth={800}
+        // gradient
+        // gradientColor="rgba(255, 255, 255, 0.3)"
+        // gradientWidth={800}
       >
-        <p className="py-4 text-2xl bg-black">{word}</p>
+        <p className="py-1.5 font-sans text-xl bg-black flex pl-3">
+          TANTRA{" "}
+          <span className="bg-gray-300 rounded-sm text-black mx-2 px-1">
+            23
+          </span>
+          {/* <span className="mx-2">|</span> */}
+          <ul className="flex flex-row gap-5 bg-gray-400 rounded-sm text-black list-disc mr-3">
+            <li className="mr-2 list-none ml-2">WORKSHOPS</li>
+            <li className="mr-2">EXHIBITIONS</li>
+            <li className="mr-2">CARSHOW</li>
+          </ul>
+          {/* <span className="mx-2">|</span> */}
+          {/* <span className="bg-gray-300 text-black"></span> */}
+        </p>
+
+        {/* <p className="py-4 text-2xl bg-black">{word}!!!</p> */}
       </Marquee>
     </div>
   );
