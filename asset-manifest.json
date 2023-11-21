@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/tantra-frontend/static/css/main.bef16e6b.css",
-    "main.js": "/tantra-frontend/static/js/main.6e218875.js",
-    "static/media/poster.png": "/tantra-frontend/static/media/poster.ea3646fae71a1f331443.png",
-    "static/media/Thanthra.png": "/tantra-frontend/static/media/Thanthra.d6a0a9dd432a44436b25.png",
+    "main.css": "/tantra-frontend/static/css/main.227d6a03.css",
+    "main.js": "/tantra-frontend/static/js/main.c04f894e.js",
+    "static/media/promo.mp4": "/tantra-frontend/static/media/promo.c51be902cedd399c42c6.mp4",
+    "static/media/intro.gif": "/tantra-frontend/static/media/intro.2b1367e64d0cadf32c80.gif",
+    "static/media/mob.png": "/tantra-frontend/static/media/mob.0dfac75f61885526dab4.png",
+    "static/media/des.png": "/tantra-frontend/static/media/des.7ab5b7f2d452d1481b7b.png",
+    "static/media/tantra.svg": "/tantra-frontend/static/media/tantra.2f0f3912352bff97459c89939503b883.svg",
+    "static/media/logoimg.png": "/tantra-frontend/static/media/logoimg.9895a5256d2ec28fc9aa.png",
     "static/media/humanities.jpg": "/tantra-frontend/static/media/humanities.ddbc9e318615d213cb39.jpg",
     "static/media/communication.jpg": "/tantra-frontend/static/media/communication.05abe94a848cddd5338f.jpg",
     "static/media/games.jpg": "/tantra-frontend/static/media/games.611e71474c989edc1c39.jpg",
@@ -15,12 +19,13 @@
     "static/media/computer.jpg": "/tantra-frontend/static/media/computer.bcf227f2d10957d8bf70.jpg",
     "static/media/instrumentation.jpg": "/tantra-frontend/static/media/instrumentation.893b9a7a63e869cdedb9.jpg",
     "index.html": "/tantra-frontend/index.html",
+    "static/media/Arrow.svg": "/tantra-frontend/static/media/Arrow.c4fec83188357033d771afb83a037d40.svg",
     "static/media/DropDownIcon.svg": "/tantra-frontend/static/media/DropDownIcon.3ba1ddb4652873871680.svg",
-    "main.bef16e6b.css.map": "/tantra-frontend/static/css/main.bef16e6b.css.map",
-    "main.6e218875.js.map": "/tantra-frontend/static/js/main.6e218875.js.map"
+    "main.227d6a03.css.map": "/tantra-frontend/static/css/main.227d6a03.css.map",
+    "main.c04f894e.js.map": "/tantra-frontend/static/js/main.c04f894e.js.map"
   },
   "entrypoints": [
-    "static/css/main.bef16e6b.css",
-    "static/js/main.6e218875.js"
+    "static/css/main.227d6a03.css",
+    "static/js/main.c04f894e.js"
   ]
 }
