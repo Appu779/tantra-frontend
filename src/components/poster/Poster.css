@@ -4,12 +4,6 @@
   position: relative;
 }
 
-.mask {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-}
-
 .fill {
   display: flex;
   justify-content: center;
@@ -25,40 +19,9 @@
   object-fit: cover;
 }
 
-.mask:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  opacity: 0.8;
-}
-.svg_logo{
+.svg_logo {
   max-width: 90%;
   margin-left: calc(50% - 445px);
-}
-
-.eventdate {
-  margin-top: -10px;
-  font-size: 35px;
-  font-weight: 300;
-  color: transparent;
-  -webkit-text-stroke: 1px #fff;
-  background: url("../../assets/back.png");
-  background-clip: text;
-  background-position: 0 0;
-  animation: back 20s linear infinite;
-}
-@keyframes back {
-  100% {
-    background-position: 2000px 0;
-  }
-}
-
-.content .btn {
-  margin: 1rem 0.2rem;
 }
 
 .particle_div {
@@ -68,18 +31,15 @@
 }
 
 @media screen and (max-width: 730px) {
-  .svg_logo{
+  .svg_logo {
     max-width: 90%;
-    margin-left:5%;
+    margin-left: 5%;
   }
   .particle_div {
     position: absolute;
     top: 50px;
-    left: 70px;
-    width: 70%;
+    left: 20px;
+    width: 90%;
     height: 50vh;
-  }
-  .eventdate {
-    font-size: 20px;
   }
 }
