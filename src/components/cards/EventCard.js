@@ -14,8 +14,10 @@ function EventCard(props) {
           {props.title != "Common Events" ? "Engineering" : ""}
         </p>
       </h2>
-      <button className="scale-50" onClick={() => navigate(props.explore)}>
-        <img src={Arrow} className="h-20 -rotate-90" />
+      <button className="relative pb-12" disabled>
+        <p className="text-xl text-gray-500 font-mono right-0 absolute sm:whitespace-nowrap">
+          Coming soon <span className="hidden sm:block animate-ping">...</span>
+        </p>
       </button>
     </div>
   );

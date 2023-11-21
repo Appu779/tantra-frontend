@@ -30,10 +30,10 @@ const CountDown = () => {
   }, [time.seconds]);
 
   return (
-    <div className="text-center mt-8 text-black drop-shadow-2xl w-fit mx-auto sm:mx-0">
+    <div className="text-center mt-8 text-black drop-shadow-2xl  sm:w-fit mx-auto sm:mx-0">
       {/* <h1>Remaining</h1> */}
       {time ? (
-        <p className="text-2xl sm:text-3xl font-bold mb-4 bg-gray-900 rounded p-6 text-gray-400 flex gap-5 pl-4">
+        <p className="text-2xl sm:text-3xl font-bold mb-4 bg-gray-900 rounded p-6 text-gray-400 flex gap-3 sm:gap-5">
           <span className="bg-white p-1 px-2 rounded-sm text-gray-900">
             {time.days}
           </span>
@@ -46,13 +46,16 @@ const CountDown = () => {
             {time.minutes}
           </span>
           :
-          <span className="bg-white p-1 px-2 rounded-sm text-gray-900 min-w-26">
+          <span className="bg-white p-1 px-2 rounded-sm text-gray-900 w-26">
             {time.seconds}
           </span>
         </p>
       ) : (
         <p className="text-2xl font-bold mb-4">Countdown has ended!</p>
       )}
+      <div className="text-4xl sm:text-5xl font-bold font-mono text-gray-800 drop-shadow-lg shadow-black">
+        DECEMBER 04
+      </div>
     </div>
   );
 };
