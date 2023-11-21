@@ -30,7 +30,7 @@ const CountDown = () => {
   }, [time.seconds]);
 
   return (
-    <div className="text-center mt-8 text-black drop-shadow-2xl">
+    <div className="text-center mt-8 text-black drop-shadow-2xl w-fit mx-auto sm:mx-0">
       {/* <h1>Remaining</h1> */}
       {time ? (
         <p className="text-2xl sm:text-3xl font-bold mb-4 bg-gray-900 rounded p-6 text-gray-400 flex gap-5 pl-4">
