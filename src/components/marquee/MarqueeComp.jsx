@@ -19,7 +19,7 @@ const MarqueeComp = ({ word, mdir = "left", rot = "rotate-0" }) => {
             <ul className="flex flex-row gap-5 bg-gray-400 text-black list-disc mr-3">
               <li className="mr-2 list-none ml-2">WORKSHOPS</li>
               <li className="mr-2">EXHIBITIONS</li>
-              <li className="mr-2">COMPETETIONS</li>
+              <li className="mr-2">COMPETITIONS</li>
             </ul>
             {/* <span className="mx-2">|</span> */}
             {/* <span className="bg-gray-300 text-black"></span> */}
