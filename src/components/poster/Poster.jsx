@@ -3,6 +3,8 @@ import { useMediaQuery } from "react-responsive";
 import Desktop from "../../assets/bg/des.png";
 import Mobile from "../../assets/bg/mob.png";
 import ParticlesComponent from "../particles/ParticlesComponent";
+import VideoPlayer from "../../components/videoPlayer/VideoPlayer";
+import logo from "../../assets/svg/tantra.svg"
 
 import "./Poster.css";
 
@@ -12,7 +14,7 @@ function Poster() {
   });
 
   return (
-    <div className="hero">
+    <div>
       {/* <div className='absolute top-[90px]'><ParticlesComponent className='part' /></div> */}
       <div className="particle_div ">
         {/**sm:hidden */}
@@ -26,10 +28,11 @@ function Poster() {
           <img src={Desktop} alt="poster" className="intro_image" />
         )}
       </div>
-      <div className="content">
-        <p className="tantra">TANTRA"23</p>
-        <p className="eventdate">DECEMBER 04, 2023</p>
+      <div className="absolute w-[100%] top-[50vh] -mt-[152px] text-center">
+        <img src={logo} className="svg_logo" alt="" />
+        {/*<p className="eventdate">DECEMBER 04, 2023</p>*/}
       </div>
+      <div><VideoPlayer/></div>
     </div>
   );
 }

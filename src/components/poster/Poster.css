@@ -35,31 +35,11 @@
 
   opacity: 0.8;
 }
-
-.hero {
-  max-height: 100vh;
-  width: 100%;
+.svg_logo{
+  max-width: 90%;
+  margin-left: calc(50% - 445px);
 }
 
-.hero .content {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  text-align: center;
-}
-
-.hero .content .tantra {
-  font-size: 140px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: transparent;
-  -webkit-text-stroke: 1px #fff;
-  background: url("../../assets/back.png");
-  -webkit-background-clip: text;
-  background-position: 0 0;
-  animation: back 20s linear infinite;
-}
 .eventdate {
   margin-top: -10px;
   font-size: 35px;
@@ -67,7 +47,7 @@
   color: transparent;
   -webkit-text-stroke: 1px #fff;
   background: url("../../assets/back.png");
-  -webkit-background-clip: text;
+  background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
 }
@@ -88,31 +68,16 @@
 }
 
 @media screen and (max-width: 730px) {
-  .hero {
-    max-height: 100vh;
-    width: 100%;
+  .svg_logo{
+    max-width: 90%;
+    margin-left:5%;
   }
-
   .particle_div {
     position: absolute;
     top: 50px;
     left: 70px;
     width: 70%;
     height: 50vh;
-  }
-
-  .hero .content {
-    margin-top: 100px;
-  }
-
-  .hero .content .tantra {
-    font-size: 4rem;
-  }
-
-  .hero .content {
-    position: relative;
-    transform: translate(-50%, -500%);
-    text-align: center;
   }
   .eventdate {
     font-size: 20px;
