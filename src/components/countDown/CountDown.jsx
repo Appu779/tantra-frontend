@@ -24,17 +24,31 @@ const CountDown = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setTime((prevTime) => calculateTimeRemaining(prevTime));
-    }, 1000);
+    }, 0);
 
     return () => clearInterval(timer);
   }, [time.seconds]);
 
   return (
-    <div className="text-center mt-8">
-      <h1>Remaining</h1>
+    <div className="text-center mt-8 text-black drop-shadow-2xl">
+      {/* <h1>Remaining</h1> */}
       {time ? (
-        <p className="text-2xl font-bold mb-4">
-          {time.days} D {time.hours} H {time.minutes} M {time.seconds} S
+        <p className="text-2xl sm:text-3xl font-bold mb-4 bg-gray-900 rounded p-6 text-gray-400 flex gap-5 pl-4">
+          <span className="bg-white p-1 px-2 rounded-sm text-gray-900">
+            {time.days}
+          </span>
+          :
+          <span className="bg-white p-1 px-2 rounded-sm text-gray-900">
+            {time.hours}
+          </span>
+          :
+          <span className="bg-white p-1 px-2 rounded-sm text-gray-900">
+            {time.minutes}
+          </span>
+          :
+          <span className="bg-white p-1 px-2 rounded-sm text-gray-900 min-w-26">
+            {time.seconds}
+          </span>
         </p>
       ) : (
         <p className="text-2xl font-bold mb-4">Countdown has ended!</p>
