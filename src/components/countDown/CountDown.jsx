@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const CountDown = () => {
   const calculateTimeRemaining = () => {
-    const endDate = new Date("2023-12-04T12:00:00+05:30");
+    const endDate = new Date("2023-12-04T12:00:00+08:30");
     const now = new Date();
     const difference = endDate.getTime() - now.getTime();
 
@@ -31,9 +31,8 @@ const CountDown = () => {
 
   return (
     <div className="text-center mt-8 text-black drop-shadow-2xl  sm:w-fit mx-auto sm:mx-0">
-      {/* <h1>Remaining</h1> */}
       {time ? (
-        <p className="text-2xl sm:text-3xl font-bold font-mono mb-4 bg-gray-900 rounded p-6 text-gray-400 flex gap-3 sm:gap-5">
+        <p className="text-xl sm:text-3xl font-bold font-mono mb-4 bg-gray-900 rounded p-6 text-gray-400 flex gap-3 sm:gap-5">
           <span className="bg-white p-1 px-2 rounded-sm text-gray-900 w-13">
             {time.days < 10 ? `0${time.days}` : time.days}
           </span>
@@ -53,7 +52,7 @@ const CountDown = () => {
       ) : (
         <p className="text-2xl font-bold mb-4">Countdown has ended!</p>
       )}
-      <div className="text-4xl sm:text-5xl font-bold font-mono text-gray-800 drop-shadow-lg shadow-black">
+      <div className="text-4xl sm:text-5xl font-bold font-mono text-gray-700 drop-shadow-lg shadow-black">
         <span>DECEMBER 04</span>
       </div>
     </div>

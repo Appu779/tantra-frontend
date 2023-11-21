@@ -10,7 +10,7 @@ function Cards() {
       <h1 className="text-center font-mono font-bold text-gray-400 text-6xl sm:text-8xl">
         Events
       </h1>
-      <div className="flex flex-col mt-10 mx-10 sm:px-40">
+      <div className="flex flex-col my-14 mx-10 md:px-20 lg:px-40">
         {CardsData.map((value, index) => {
           return (
             <WorkCard
