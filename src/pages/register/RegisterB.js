@@ -134,7 +134,7 @@ function RegisterB() {
                                                 <Select options={branches} st={branch} setSt={setBranch} />
                                             </div>
                                             {
-                                                event_id === 80 ? <div className="md:col-span-5">
+                                                event_id === 1000 ? <div className="md:col-span-5">
                                                     <label for="address">Please upload your document as your team name in PDF *</label>
                                                     <button className='btnbg h-10 border mt-1 rounded px-4 w-full text-white' onClick={() => {
                                                         openInNewTab(helleKopfeUrl);

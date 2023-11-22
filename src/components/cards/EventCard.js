@@ -7,7 +7,7 @@ function EventCard(props) {
   let navigate = useNavigate();
 
   return (
-    <div className="flex justify-between border-b border-gray-400 py-10">
+    <div className="flex justify-between border-b last:border-b-0 border-gray-400 py-10">
       <h2 className="font-mono font-bold text-gray-400 text-3xl sm:text-5xl w-40 sm:w-96 whitespace-pre-wrap">
         {props.title}
         <p className="font-sans font-light text-2xl">

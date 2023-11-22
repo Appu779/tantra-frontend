@@ -70,12 +70,12 @@ const CardsData = [
     explore: "/cscy-events",
   },
 
-  {
-    imgsrc: Games,
-    title: "Common Events",
-    text: "Events common for all...",
-    explore: "/com-events",
-  },
+  // {
+  //   imgsrc: Games,
+  //   title: "Common Events",
+  //   text: "Events common for all...",
+  //   explore: "/com-events",
+  // },
 ];
 
 export default CardsData;
