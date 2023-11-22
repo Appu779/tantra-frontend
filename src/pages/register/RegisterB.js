@@ -170,23 +170,38 @@ function RegisterB() {
                                             </div>
                                             <div className='md:col-span-5'>
                                                 {fee !== 'FREE' && fee !== '' && event_id !== 36 ?
-                                                    < div >
+                                                    <div>
                                                         FEE: Rs. {fee}
                                                         <div className='text-red-900'>Transfer the amount to the account mentioned below: *</div>
-                                                        <div>Name: {AccountsData[dept].name}</div>
-                                                        <div>A/c No: {AccountsData[dept].accountNo}</div>
-                                                        <div>IFSC: {AccountsData[dept].ifsc}</div>
-                                                        <div>BANK: {AccountsData[dept].bankName}</div>
+                                                        <div className='flex'>
+                                                            <div className='flex-1'>
+                                                                <div>Name: {AccountsData[dept].name}</div>
+                                                                <div>A/c No: {AccountsData[dept].accountNo}</div>
+                                                                <div>IFSC: {AccountsData[dept].ifsc}</div>
+                                                                <div>BANK: {AccountsData[dept].bankName}</div>
+                                                            </div>
+                                                            <div className='pr-9'>
+                                                                <img
+                                                                    src={AccountsData[dept].Qr}
+                                                                    alt="QR Code"
+                                                                    width="100"
+                                                                    height="100"
+                                                                />
+                                                            </div>
+                                                        </div>
                                                         <div className='mt-2'>
                                                             <label>Transaction ID: *</label>
-                                                            <input type="text" placeholder="Transaction ID" className="h-10 border mt-1 rounded px-4 w-full bg-white"
-                                                                {...register('tid')} required
+                                                            <input
+                                                                type="text"
+                                                                placeholder="Transaction ID"
+                                                                className="h-10 border mt-1 rounded px-4 w-full bg-white"
+                                                                {...register('tid')}
+                                                                required
                                                             />
-
                                                         </div>
                                                     </div> : null}
-
                                             </div>
+
                                             {warning ? <div className='p-1 text-red-600 md:col-span-5'>*Please fill all the fields.</div> : null}
                                             {netwarning ? <div className='p-1 text-red-600 font-bold md:col-span-5'>*Please check your network connection</div> : null}
 
