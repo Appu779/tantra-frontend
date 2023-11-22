@@ -12,23 +12,23 @@ function Cards(props) {
   return (
     <div className="w-80 p-1 rounded-2xl overflow-hidden shadow-lg bg-gray-200 mx-auto ">
       {/*change angle of transition, 3d effect of turning the card here, in perspective */}
-      <div class="group h-96 w-50 [perspective:5000px]">
+      <div class="group h-[404px] w-50 [perspective:5000px]">
         {/*change speed of transition here, in duration */}
         <div class="relative h-full w-full rounded-xl shadow-xl transition-all  [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
           <div class="absolute inset-0">
-            <div className="h-44 w-30 rounded-2xl bg-black py-16">
-              <div className="text-center text-white font-bold font-mono text-3xl whitespace-pre-wrap h-16">
+            <div className="h-44 w-30 rounded-xl bg-gradient-to-l from-gray-800 via-gray-900 to-black py-16">
+              <div className="text-center text-gray-200 font-bold font-mono text-3xl ">
                 {eventData.name}
               </div>
             </div>
-            <div className="flex flex-col  font-mono ">
-              <p className="flex flex-row px-1 justify-between pt-3">
-                <span className="bg-gray-800  text-white  py-1 rounded-lg grow mr-3 text-center">
+            <div className="flex flex-col font-mono ">
+              <p className="flex flex-row justify-between pt-3 px-1">
+                <span className="bg-gray-900 text-white py-1 rounded-lg mr-1 text-center w-4/12 grow self-center h-[34px] overflow-hidden">
                   {props.data.event_type}
                 </span>
-                <span className="border border-gray-900 bg-gray-300 px-1 py-1 rounded-lg">
+                <span className="border border-gray-900 bg-gray-300 text-center py-1 rounded-lg w-5/12">
                   Reg Fee{" "}
-                  <span className="bg-gray-800 text-white px-2 py-0.5 rounded-md">
+                  <span className="bg-gray-900 text-white px-1 py-0.5 rounded-md text-center ">
                     {eventData.fee}
                   </span>
                 </span>
