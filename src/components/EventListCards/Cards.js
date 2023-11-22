@@ -10,20 +10,20 @@ function Cards(props) {
 
   console.log(typeof fee);
   return (
-    <div className="w-72 p-1 rounded-2xl overflow-hidden shadow-lg bg-gray-200 mx-auto ">
+    <div className="w-80 p-1 rounded-2xl overflow-hidden shadow-lg bg-gray-200 mx-auto ">
       {/*change angle of transition, 3d effect of turning the card here, in perspective */}
       <div class="group h-96 w-50 [perspective:5000px]">
         {/*change speed of transition here, in duration */}
         <div class="relative h-full w-full rounded-xl shadow-xl transition-all  [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
           <div class="absolute inset-0">
             <div className="h-44 w-30 rounded-2xl bg-black py-16">
-              <div className="text-center text-white font-bold font-serif text-3xl mb-2 h-16">
+              <div className="text-center text-white font-bold font-mono text-3xl whitespace-pre-wrap h-16">
                 {eventData.name}
               </div>
             </div>
-            <div className="flex flex-col px-3 font-mono ">
-              <p className="flex flex-row justify-between pt-3">
-                <span className="bg-gray-800 text-white px-2 py-1 rounded-lg grow mr-3 text-center">
+            <div className="flex flex-col  font-mono ">
+              <p className="flex flex-row px-1 justify-between pt-3">
+                <span className="bg-gray-800  text-white  py-1 rounded-lg grow mr-3 text-center">
                   {props.data.event_type}
                 </span>
                 <span className="border border-gray-900 bg-gray-300 px-1 py-1 rounded-lg">
@@ -33,15 +33,15 @@ function Cards(props) {
                   </span>
                 </span>
               </p>
-              <p className="text-sm flex pt-4 min-h-[56px]">
+              <p className="text-sm flex px-2  pt-4 h-[56px] overflow-hidden">
                 <LocationOn />
                 <span className="pl-2">{eventData.venue}</span>
               </p>
-              <p className="text-sm self-start">
+              <p className="text-sm self-start px-2">
                 <Timer />
                 <span className="pl-2 align-bottom">{eventData.time}</span>
               </p>
-              <p className="text-sm self-start pt-2 pb-3">
+              <p className="text-sm self-start pt-2 px-2 pb-3">
                 <Person />
                 <span className="pl-2 align-bottom ">{eventData.student1}</span>
               </p>
