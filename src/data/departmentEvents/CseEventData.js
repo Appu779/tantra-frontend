@@ -149,7 +149,7 @@ const CseEventData = [
         description: ' 2D game creation in \'PlayForge: Unity Unveiled.\' Join a brief, code-free session to explore Unity\'s power and get inspired!',
         event_type: 'Workshop',
         fee: 'FREE',
-        student1: 'Jwel John',
+        student1: 'Jewel John',
         s1_phone: 9947807480,
         student2: 'Aswin K',
         s2_phone: 9544815670,
