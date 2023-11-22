@@ -46,12 +46,6 @@ const CardsData = [
     explore: "/eee-events",
   },
   {
-    imgsrc: ASH,
-    title: "Applied Science & Humanities",
-    text: "Events conducted by ASH Department",
-    explore: "/ash-events",
-  },
-  {
     imgsrc: ADS,
     title: "Artificial Intelligence & Data Science",
     text: "Events conducted by Department of Artificial Intelligence and Data Science",
@@ -71,7 +65,7 @@ const CardsData = [
   },
   {
     imgsrc: ADS,
-    title: "Computer Science And Cyber Secuirity",
+    title: "Computer Science And Cyber Security",
     text: "Events conducted by Department of Computer Science And Cyber Secuirity",
     explore: "/cscy-events",
   },

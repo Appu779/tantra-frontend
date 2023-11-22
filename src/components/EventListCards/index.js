@@ -23,11 +23,11 @@ export const AeiEvents = () => {
     )
 }
 
-export const AshEvents = () => {
-    return (
-        <Events eventsData={AshEventData} />
-    )
-}
+// export const AshEvents = () => {
+//     return (
+//         <Events eventsData={AshEventData} />
+//     )
+// }
 
 export const CeEvents = () => {
     return (

@@ -36,7 +36,7 @@ function App() {
         <Route exact path='/ece-events' element={<EceEvents />} />
         <Route exact path='/aei-events' element={<AeiEvents />} />
         <Route exact path='/eee-events' element={<EeeEvents />} />
-        <Route exact path='/ash-events' element={<AshEvents />} />
+        {/* <Route exact path='/ash-events' element={<AshEvents />} /> */}
         <Route exact path='/ads-events' element={<AdsEvents />} />
         <Route exact path='/csd-events' element={<CsdEvents />} />
         <Route exact path='/csbs-events' element={<CsbsEvents />} />
