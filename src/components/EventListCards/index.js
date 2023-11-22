@@ -1,9 +1,9 @@
 import Events from "./Events";
 import AdsEventData from '../../data/departmentEvents/AdsEventData';
 import AeiEventData from '../../data/departmentEvents/AeiEventData';
-import AshEventData from '../../data/departmentEvents/AshEventData';
+// import AshEventData from '../../data/departmentEvents/AshEventData';
 import CeEventData from '../../data/departmentEvents/CeEventData';
-import CommonEventData from '../../data/departmentEvents/CommonEventData';
+// import CommonEventData from '../../data/departmentEvents/CommonEventData';
 import CseEventData from '../../data/departmentEvents/CseEventData';
 import EceEventData from '../../data/departmentEvents/EceEventData';
 import MechanicalEventData from '../../data/departmentEvents/MechanicalEventData.js';
@@ -35,11 +35,11 @@ export const CeEvents = () => {
     )
 }
 
-export const CommEvents = () => {
-    return (
-        <Events eventsData={CommonEventData} />
-    )
-}
+// export const CommEvents = () => {
+//     return (
+//         <Events eventsData={CommonEventData} />
+//     )
+// }
 
 export const CseEvents = () => {
     return (

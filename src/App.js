@@ -41,7 +41,7 @@ function App() {
         <Route exact path='/csd-events' element={<CsdEvents />} />
         <Route exact path='/csbs-events' element={<CsbsEvents />} />
         <Route exact path='/cscy-events' element={<CscyEvents />} />
-        <Route exact path='/com-events' element={<CommEvents />} />
+        {/* <Route exact path='/com-events' element={<CommEvents />} /> */}
         <Route exact path='/register' element={<RegisterB />} />
         <Route exact path='/thanks' element={<ThanksPage />} />
         {user && <Route path="/admin" exact element={<AdminHome />} />}
