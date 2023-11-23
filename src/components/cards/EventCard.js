@@ -7,18 +7,14 @@ function EventCard(props) {
   let navigate = useNavigate();
 
   return (
-    <div className="flex justify-between border-b last:border-b-0 border-gray-400 py-10">
-      <h2 className="font-mono font-bold text-gray-400 text-3xl sm:text-5xl w-40 sm:w-96 whitespace-pre-wrap">
+    <div
+      className="cursor-pointer border-b last:border-b-0 border-gray-400 py-10"
+      onClick={() => navigate(props.explore)}
+    >
+      <h2 className="font-mono font-bold text-gray-400 text-3xl sm:text-5xl sm:w-3/4 whitespace-pre-wrap hover:scale-105 hover:pl-3 hover:w-4/5 hover:text-gray-200">
         {props.title}
-        <p className="font-sans font-light text-2xl">
-          {props.title != "Common Events" ? "Engineering" : ""}
-        </p>
+        <p className="font-sans font-light text-2xl">Engineering</p>
       </h2>
-      <button className="relative pb-12" disabled>
-        <p className="text-xl text-gray-500 font-mono right-0 absolute sm:whitespace-nowrap">
-          Coming soon <span className="hidden sm:block animate-ping">...</span>
-        </p>
-      </button>
     </div>
   );
 }
