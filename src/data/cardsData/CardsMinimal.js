@@ -39,12 +39,12 @@ const CardsData = [
     text: "Events conducted by AEI Department",
     explore: "/aei-events",
   },
-  // {
-  //   imgsrc: EEE,
-  //   title: "Electrical & Electronics",
-  //   text: "Events conducted by EEE Department",
-  //   explore: "/eee-events",
-  // },
+  {
+    imgsrc: EEE,
+    title: "Electrical & Electronics",
+    text: "Events conducted by EEE Department",
+    explore: "/eee-events",
+  },
   {
     imgsrc: ADS,
     title: "Artificial Intelligence & Data Science",
