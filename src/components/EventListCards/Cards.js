@@ -12,7 +12,7 @@ function Cards(props) {
       {/*change angle of transition, 3d effect of turning the card here, in perspective */}
       <div className="group h-[404px] w-50 [perspective:5000px]">
         {/*change speed of transition here, in duration */}
-        <div className="relative h-full w-full rounded-xl shadow-xl transition-all  [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+        <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-1000  [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
           <div className="absolute inset-0">
             <div className="h-44 w-30 rounded-xl bg-gradient-to-l from-gray-800 via-gray-900 to-black py-16">
               <div className="text-center text-gray-200 font-bold font-mono text-3xl ">
@@ -60,7 +60,7 @@ function Cards(props) {
               </div>
 
               <div className="flex justify-center gap-2 sm:gap-5 w-full items-center">
-                <p className="text-sm h-10 w-10 bg-black rounded-full py-2  ">
+                <p className="text-sm h-10 w-10 bg-gray-800 rounded-full py-2  ">
                   <span>{eventData.group ? <Group /> : <Person />}</span>
                 </p>
                 <button
@@ -78,7 +78,7 @@ function Cards(props) {
                     ? "Spot"
                     : "Closed"}
                 </button>
-                <p className="text-sm h-10 w-10 bg-gray-800 rounded-full py-2 text-green-500 ">
+                <p className="text-sm h-10 w-10 bg-gray-800 rounded-full py-2">
                   <a href={`tel:${eventData.s1_phone}`}>
                     <Call />
                   </a>
