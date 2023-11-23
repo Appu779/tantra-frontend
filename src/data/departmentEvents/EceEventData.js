@@ -307,6 +307,24 @@ const EceEventData = [
         time: '9:30AM to 11 AM'
     },
     {
+        event_id:42,
+        name: 'Electronics Room',
+        description: 'Explore a the latest in electonic innovations at our electronics room events featuring interacttive exhibits and cutting edge technology demonstrations for enthusiaists of all levels',
+        event_type: 'ElectroComm Room',
+        fee: '',
+        student1: 'Abinav E N',
+        s1_phone: 8943405546,
+        student2: 'Anusha Antony',
+        s2_phone: 8921507439,
+        staff: '',
+        prize: false,
+        dept:'ece',
+        reg: true,
+        group: false,
+        venue: 'S3 ECE ECE BLOCK',
+        time: '9:30AM-4:10PM'
+    },
+    {
         event_id:38,
         name: 'Communication Room',
         description: 'Step into a realm where the art of communication takes center stage—welcome to "Connections Unleashed: The Communication Room Experience." This unique event is a celebration of the diverse ways we connect, collaborate, and communicate in our ever-evolving world.',
@@ -361,7 +379,7 @@ const EceEventData = [
         time: '9:30AM-4:10PM'
     },
     {
-        event_id:40,
+        event_id:41,
         name: 'VR Gaming',
         description: 'Step into a new dimension with a virtual reality event!! Join us for an immersive experiencethat transcends reality.',
         event_type: 'Gaming',
