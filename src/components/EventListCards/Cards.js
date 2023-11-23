@@ -1,6 +1,6 @@
 import React from "react";
 // import ViewDetails from "../popup/ViewDetails";
-import { Call, LocationOn, Person, Timer } from "@material-ui/icons";
+import { Call, Group, LocationOn, Person, Timer } from "@material-ui/icons";
 import { useNavigate } from "react-router-dom";
 
 function Cards(props) {
@@ -25,7 +25,6 @@ function Cards(props) {
                   {props.data.event_type}
                 </span>
                 <span className="border border-gray-900 bg-gray-300 text-center py-1 rounded-lg w-5/12">
-                  {/* {eventData.fee !== "FREE" ? "Reg Fee " : ""} */}
                   Reg Fee{" "}
                   <span className="bg-gray-900 text-white px-2 py-0.5 rounded-md text-center ">
                     {eventData.fee}
@@ -60,9 +59,12 @@ function Cards(props) {
                 <p className="text-base ">{props.data.description}</p>
               </div>
 
-              <div className="flex justify-center gap-5 w-full">
+              <div className="flex justify-center gap-5 w-full items-center">
+                <p className="text-sm h-10 w-10 bg-gray-800 rounded-full py-2  ">
+                  <span>{eventData.group ? <Group /> : <Person />}</span>
+                </p>
                 <button
-                  className={`text-gray-900 bg-gray-300 font-mono rounded-full px-4 py-1.5 text-center ${
+                  className={`text-gray-900 bg-gray-300 font-mono rounded-full px-3 py-2 text-center ${
                     !eventData.reg ? "cursor-not-allowed" : ""
                   }`}
                   onClick={() => {
