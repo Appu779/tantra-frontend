@@ -67,7 +67,7 @@ const CsdEventData = [
         staff: 'Ms.Rahna C M',
         prize: true,
         dept: 'cse',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'S5 CSE B,Admin Block, 2nd floor',
         time: '10:00 PM - 3:00 PM'
