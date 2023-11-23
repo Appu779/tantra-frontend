@@ -59,8 +59,8 @@ function Cards(props) {
                 <p className="text-base ">{props.data.description}</p>
               </div>
 
-              <div className="flex justify-center gap-5 w-full items-center">
-                <p className="text-sm h-10 w-10 bg-gray-800 rounded-full py-2  ">
+              <div className="flex justify-center gap-2 sm:gap-5 w-full items-center">
+                <p className="text-sm h-10 w-10 bg-black rounded-full py-2  ">
                   <span>{eventData.group ? <Group /> : <Person />}</span>
                 </p>
                 <button
