@@ -35,7 +35,7 @@ const AccountsData = {
         accountNo: '0078053000079641',
         ifsc: 'SIBL0000078',
         bankName: 'Bank South Indian bank, Thalassery',
-        Qr: QR,
+
     },
     eee: {
         name: 'HOD Electrical & Electronics Engineering',
