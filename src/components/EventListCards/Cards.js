@@ -25,8 +25,9 @@ function Cards(props) {
                   {props.data.event_type}
                 </span>
                 <span className="border border-gray-900 bg-gray-300 text-center py-1 rounded-lg w-5/12">
+                  {/* {eventData.fee !== "FREE" ? "Reg Fee " : ""} */}
                   Reg Fee{" "}
-                  <span className="bg-gray-900 text-white px-1 py-0.5 rounded-md text-center ">
+                  <span className="bg-gray-900 text-white px-2 py-0.5 rounded-md text-center ">
                     {eventData.fee}
                   </span>
                 </span>

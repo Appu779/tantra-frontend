@@ -59,7 +59,7 @@ const CardsData = [
   },
   // {
   //   imgsrc: ADS,
-  //   title: "Computer Science And Business",
+  //   title: "Computer Science And Business Systems",
   //   text: "Events conducted by Department of Computer Science And Business",
   //   explore: "/csbs-events",
   // },
