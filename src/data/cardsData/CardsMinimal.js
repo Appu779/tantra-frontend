@@ -27,12 +27,12 @@ const CardsData = [
     text: "Events conducted by Department of Civil Engineering",
     explore: "/ce-events",
   },
-  {
-    imgsrc: ECE,
-    title: "Electronics & Communication",
-    text: "Events conducted by Department of Electronics and Communication Engineering",
-    explore: "/ece-events",
-  },
+  // {
+  //   imgsrc: ECE,
+  //   title: "Electronics & Communication",
+  //   text: "Events conducted by Department of Electronics and Communication Engineering",
+  //   explore: "/ece-events",
+  // },
   {
     imgsrc: AEI,
     title: "Applied Electronics & Instrumentation",
