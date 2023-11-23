@@ -1,6 +1,6 @@
 import React from "react";
 // import ViewDetails from "../popup/ViewDetails";
-import { Call, LocationOn, Person, Timer } from "@material-ui/icons";
+import { Call, Group, LocationOn, Person, Timer } from "@material-ui/icons";
 import { useNavigate } from "react-router-dom";
 
 function Cards(props) {
@@ -12,7 +12,7 @@ function Cards(props) {
       {/*change angle of transition, 3d effect of turning the card here, in perspective */}
       <div className="group h-[404px] w-50 [perspective:5000px]">
         {/*change speed of transition here, in duration */}
-        <div className="relative h-full w-full rounded-xl shadow-xl transition-all  [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+        <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-1000  [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
           <div className="absolute inset-0">
             <div className="h-44 w-30 rounded-xl bg-gradient-to-l from-gray-800 via-gray-900 to-black py-16">
               <div className="text-center text-gray-200 font-bold font-mono text-3xl ">
@@ -25,9 +25,8 @@ function Cards(props) {
                   {props.data.event_type}
                 </span>
                 <span className="border border-gray-900 bg-gray-300 text-center py-1 rounded-lg w-5/12">
-                  {/* {eventData.fee !== "FREE" ? "Reg Fee " : ""} */}
-                  Reg Fee{" "}
-                  <span className="bg-gray-900 text-white px-2 py-0.5 rounded-md text-center ">
+                  Reg Fee
+                  <span className="bg-gray-900 text-white px-1 ml-1 py-0.5 rounded-md text-center ">
                     {eventData.fee}
                   </span>
                 </span>
@@ -60,9 +59,12 @@ function Cards(props) {
                 <p className="text-base ">{props.data.description}</p>
               </div>
 
-              <div className="flex justify-center gap-5 w-full">
+              <div className="flex justify-center gap-2 sm:gap-5 w-full items-center">
+                <p className="text-sm h-10 w-10 bg-gray-800 rounded-full py-2  ">
+                  <span>{eventData.group ? <Group /> : <Person />}</span>
+                </p>
                 <button
-                  className={`text-gray-900 bg-gray-300 font-mono rounded-full px-4 py-1.5 text-center ${
+                  className={`text-gray-900 grow bg-gray-300 font-mono rounded-full px-3 py-2 text-center ${
                     !eventData.reg ? "cursor-not-allowed" : ""
                   }`}
                   onClick={() => {
@@ -76,7 +78,7 @@ function Cards(props) {
                     ? "Spot"
                     : "Closed"}
                 </button>
-                <p className="text-sm h-10 w-10 bg-gray-800 rounded-full py-2 text-green-500 ">
+                <p className="text-sm h-10 w-10 bg-gray-800 rounded-full py-2">
                   <a href={`tel:${eventData.s1_phone}`}>
                     <Call />
                   </a>
