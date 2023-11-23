@@ -261,7 +261,7 @@ const CseEventData = [
     prize: true,
     dept: "cse",
     reg: true,
-    group: false,
+    group: true,
     venue: "M. Tech Classroom,Admin BLOCK, 2nd Floor",
     time: "10:30 AM",
   },

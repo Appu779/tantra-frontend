@@ -50,7 +50,7 @@ const CeEventData = [
         prize: true,
         dept:'ce',
         reg: true,
-        group: NaN,
+        group: false,
         venue: 'Auditorium',
         time: 'Full Day'
     },
@@ -68,7 +68,7 @@ const CeEventData = [
         prize: true,
         dept:'ce',
         reg: true,
-        group: true,
+        group: false,
         venue: 'Auditorium',
         time: 'Full Day'
     },
@@ -86,7 +86,7 @@ const CeEventData = [
         prize: true,
         dept:'ce',
         reg: true,
-        group: true,
+        group: false,
         venue: 'Auditorium',
         time: '11.00-1.00'
     },
@@ -104,7 +104,7 @@ const CeEventData = [
         prize: true,
         dept:'ce',
         reg: true,
-        group: true,
+        group: false,
         venue: 'Auditorium',
         time: '10.00-11.00'
     },
@@ -122,7 +122,7 @@ const CeEventData = [
         prize: true,
         dept:'ce',
         reg: true,
-        group: true,
+        group: false,
         venue: 'Auditorium',
         time: '02.00-03.00'
     },
@@ -140,7 +140,7 @@ const CeEventData = [
         prize: true,
         dept:'ce',
         reg: true,
-        group: true,
+        group: false,
         venue: 'Auditorium',
         time: 'Full Day'
     },
@@ -158,7 +158,7 @@ const CeEventData = [
         prize: true,
         dept:'ce',
         reg: true,
-        group: true,
+        group: false,
         venue: 'Auditorium',
         time: 'Full Day'
     },
@@ -176,7 +176,7 @@ const CeEventData = [
         prize: true,
         dept:'ce',
         reg: true,
-        group: true,
+        group: false,
         venue: 'Auditorium',
         time: 'Full Day'
     },
@@ -194,7 +194,7 @@ const CeEventData = [
         prize: true,
         dept:'ce',
         reg: true,
-        group: true,
+        group: false,
         venue: 'Auditorium',
         time: 'Full Day'
     },
@@ -212,7 +212,7 @@ const CeEventData = [
         prize: true,
         dept:'ce',
         reg: true,
-        group: true,
+        group: false,
         venue: 'Auditorium',
         time: 'Full Day'
     },
@@ -230,7 +230,7 @@ const CeEventData = [
         prize: true,
         dept:'ce',
         reg: true,
-        group: true,
+        group: false,
         venue: 'Auditorium',
         time: 'Full Day'
     },
@@ -248,7 +248,7 @@ const CeEventData = [
         prize: true,
         dept:'ce',
         reg: true,
-        group: true,
+        group: false,
         venue: 'Auditorium',
         time: 'Full Day'
     },
@@ -266,7 +266,7 @@ const CeEventData = [
         prize: true,
         dept:'ce',
         reg: true,
-        group: true,
+        group: false,
         venue: 'Auditorium',
         time: 'Full Day'
     },

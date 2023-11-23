@@ -109,7 +109,7 @@ const AdsEventData = [
         reg: true,
         group: false,
         venue: 'Hardware Lab, Admin Block, 2nd floor',
-        time: '1.30-2.15 PM'
+        time: '1.30 PM-2.15 PM'
     },
     {
         event_id:147,

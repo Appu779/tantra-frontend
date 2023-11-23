@@ -19,7 +19,7 @@ const CscyEventData = [
     },
     {
         event_id:162,
-        name: 'Efootball ',
+        name: 'Golazo',
         description: 'competition of Efootball game ',
         event_type: 'Competiton',
         fee: 30,
