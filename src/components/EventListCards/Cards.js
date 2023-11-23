@@ -25,8 +25,8 @@ function Cards(props) {
                   {props.data.event_type}
                 </span>
                 <span className="border border-gray-900 bg-gray-300 text-center py-1 rounded-lg w-5/12">
-                  Reg Fee{" "}
-                  <span className="bg-gray-900 text-white px-2 py-0.5 rounded-md text-center ">
+                  Reg Fee
+                  <span className="bg-gray-900 text-white px-1 ml-1 py-0.5 rounded-md text-center ">
                     {eventData.fee}
                   </span>
                 </span>
@@ -64,7 +64,7 @@ function Cards(props) {
                   <span>{eventData.group ? <Group /> : <Person />}</span>
                 </p>
                 <button
-                  className={`text-gray-900 bg-gray-300 font-mono rounded-full px-3 py-2 text-center ${
+                  className={`text-gray-900 grow bg-gray-300 font-mono rounded-full px-3 py-2 text-center ${
                     !eventData.reg ? "cursor-not-allowed" : ""
                   }`}
                   onClick={() => {
