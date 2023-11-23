@@ -53,7 +53,7 @@ const CountDown = () => {
         <p className="text-2xl font-bold mb-4">Countdown has ended!</p>
       )}
       <div className="text-4xl sm:text-5xl font-bold font-mono text-gray-700 drop-shadow-lg shadow-black">
-        <span>DECEMBER 04</span>
+        <span className="drop-shadow-2xl">DECEMBER 04</span>
       </div>
     </div>
   );

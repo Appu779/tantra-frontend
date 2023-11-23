@@ -180,14 +180,14 @@ function RegisterB() {
                                                                 <div>IFSC: {AccountsData[dept].ifsc}</div>
                                                                 <div>BANK: {AccountsData[dept].bankName}</div>
                                                             </div>
-                                                            <div className='pr-9'>
+                                                            {/* <div className='pr-9'>
                                                                 <img
                                                                     src={AccountsData[dept].Qr}
                                                                     alt="QR Code"
                                                                     width="100"
                                                                     height="100"
                                                                 />
-                                                            </div>
+                                                            </div> */}
                                                         </div>
                                                         <div className='mt-2'>
                                                             <label>Transaction ID: *</label>
