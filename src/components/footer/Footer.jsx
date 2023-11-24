@@ -33,7 +33,7 @@ function Footer() {
               </Link>
             </li>
             <li className="sm:cursor-pointer">
-              <Link smooth spy to="contacts" style={{ cursor: "pointer" }}>
+              <Link smooth spy to="contacts">
                 Contacts
               </Link>
             </li>

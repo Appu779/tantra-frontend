@@ -12,6 +12,10 @@ const MarqueeComp = ({ word, mdir = "left", rot = "rotate-0" }) => {
               <li className="mr-2">EXHIBITIONS</li>
               <li className="mr-2">COMPETITIONS</li>
             </ul>
+            TANTRA <span className="bg-gray-300  text-black mx-2 px-1">23</span>
+            <span className="bg-gray-400 text-black px-2 font-semibold">
+              NATIONAL LEVEL TECHFEST
+            </span>
           </span>
         </div>
       </Marquee>
