@@ -220,7 +220,7 @@ const CscyEventData = [
     {
         event_id:173,
         name: 'Ring Toss ',
-        description: '"RING TOSS" IS A GAME WHERE RINGS ARE AIMED AT A GIFT YOU NEED FROM BEHIND THE LINE.',
+        description: 'Ring toss is a game where rings are aimed at a gift you need from behind the line.',
         event_type: 'Ring Toss ',
         fee: 10,
         student1: 'Mathew George  ',

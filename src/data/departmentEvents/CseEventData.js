@@ -267,7 +267,7 @@ const CseEventData = [
   },
   {
     event_id: 15,
-    name: "Buhahahaha",
+    name: "Buhahaha",
     description: "wide varieties of fun games",
     event_type: "Entertainment Games",
     fee: "FREE",
