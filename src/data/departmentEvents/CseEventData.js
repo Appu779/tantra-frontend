@@ -234,7 +234,7 @@ const CseEventData = [
       "Battlegrounds Mobile India (BGMI): A TPP-FPP survival shooter game",
     event_type: "Mobile Gamimg",
     fee: 200,
-    student1: "Dalven Jos",
+    student1: "Dalven Jose",
     s1_phone: 6282306013,
     student2: "Amish Harinanadan",
     s2_phone: 9207882788,
