@@ -123,12 +123,18 @@ function RegisterB() {
                                                 <label for="email">Email *</label>
                                                 <input type="text" className="h-10 border mt-1 rounded px-4 w-full bg-white" placeholder="email@domain.com"  {...register('email')} />
                                             </div>
-
-                                            <div className="md:col-span-3">
-                                                <label for="address">Institute Name * </label>
-                                                <input type="text" className="h-10 border mt-1 rounded px-4 w-full bg-white" placeholder="Institute Name" {...register('college')} />
-                                            </div>
-
+                                            {
+                                                event_id === 13 ?
+                                                    <div className="md:col-span-3">
+                                                        <label for="address">Team Name * </label>
+                                                        <input type="text" className="h-10 border mt-1 rounded px-4 w-full bg-white" placeholder="Team Name" {...register('college')} />
+                                                    </div>
+                                                    :
+                                                    <div className="md:col-span-3">
+                                                        <label for="address">Institute Name * </label>
+                                                        <input type="text" className="h-10 border mt-1 rounded px-4 w-full bg-white" placeholder="Institute Name" {...register('college')} />
+                                                    </div>
+                                            }
                                             <div className="md:col-span-2">
                                                 <label for="city">Branch/Class *</label>
                                                 <Select options={branches} st={branch} setSt={setBranch} />
@@ -159,17 +165,26 @@ function RegisterB() {
                                                 <label for="country">State *</label>
                                                 <Select options={states} st={stateName} setSt={setstateName} />
                                             </div>
-
-                                            <div className="md:col-span-3">
-                                                <label for="state">District *</label>
-                                                <div className="h-10 bg-white flex border border-gray-200 rounded items-center mt-1">
-                                                    <input placeholder="District" className="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent"
-                                                        {...register('district')}
-                                                    />
-                                                </div>
-                                            </div>
+                                            {
+                                                event_id === 13 ? <div className="md:col-span-3">
+                                                    <label for="state">IGN *</label>
+                                                    <div className="h-10 bg-white flex border border-gray-200 rounded items-center mt-1">
+                                                        <input placeholder="in game name" className="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent"
+                                                            {...register('district')}
+                                                        />
+                                                    </div>
+                                                </div> :
+                                                    <div className="md:col-span-3">
+                                                        <label for="state">District *</label>
+                                                        <div className="h-10 bg-white flex border border-gray-200 rounded items-center mt-1">
+                                                            <input placeholder="District" className="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent"
+                                                                {...register('district')}
+                                                            />
+                                                        </div>
+                                                    </div>
+                                            }
                                             <div className='md:col-span-5'>
-                                                {fee !== 'FREE' && fee !== '' && event_id !== 36 ?
+                                                {fee !== 'FREE' && fee !== '' && event_id!=13 ?
                                                     <div>
                                                         FEE: Rs. {fee}
                                                         <div className='text-red-900'>Transfer the amount to the account mentioned below: *</div>
@@ -200,6 +215,41 @@ function RegisterB() {
                                                             />
                                                         </div>
                                                     </div> : null}
+                                                {
+                                                    event_id === 13 ?
+                                                        <div>
+                                                            FEE: Rs. {fee}
+                                                            <div className='text-red-900'>Transfer the amount to the account mentioned below: *</div>
+                                                            <div className='flex'>
+                                                                <div className='flex-1'>
+                                                                    <div>Name: {AccountsData[dept].name}</div>
+                                                                    <div>A/c No: {AccountsData[dept].accountNo}</div>
+                                                                    <div>IFSC: {AccountsData[dept].ifsc}</div>
+                                                                    <div>BANK: {AccountsData[dept].bankName}</div>
+                                                                </div>
+                                                                {/* <div className='pr-9'>
+                                                                <img
+                                                                    src={AccountsData[dept].Qr}
+                                                                    alt="QR Code"
+                                                                    width="100"
+                                                                    height="100"
+                                                                />
+                                                            </div> */}
+                                                            </div>
+                                                            <div className='text-red-900 font-bold'>Send Screenshot of payment to Dalven Jose +916282306013  *</div>
+                                                            <div className='mt-2'>
+                                                                <label>Transaction ID: *</label>
+                                                                <input
+                                                                    type="text"
+                                                                    placeholder="Transaction ID"
+                                                                    className="h-10 border mt-1 rounded px-4 w-full bg-white"
+                                                                    {...register('tid')}
+                                                                    required
+                                                                />
+                                                            </div>
+                                                        </div> : null}
+
+
                                             </div>
 
                                             {warning ? <div className='p-1 text-red-600 md:col-span-5'>*Please fill all the fields.</div> : null}

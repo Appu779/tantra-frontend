@@ -156,6 +156,7 @@ function AdminView() {
                     <th>College</th>
                     <th>Branch</th>
                     <th>Semester</th>
+                    <th>District</th>
                     <th>Email</th>
                     <th>Ph No.</th>
                     <th>Transaction ID</th>
@@ -172,6 +173,7 @@ function AdminView() {
                 <td>{props.college}</td>
                 <td>{props.branch}</td>
                 <td>{props.semester}</td>
+                <td>{props.district}</td>
                 <td>{props.email}</td>
                 <td>{props.phno}</td>
                 <td>{props.tid}</td>
