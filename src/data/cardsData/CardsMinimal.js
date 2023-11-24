@@ -18,7 +18,7 @@ const CardsData = [
   {
     imgsrc: Computer,
     title: "Computer Science ",
-    text: "Events conducted by Department of Computer Science and Engineering ",
+    text: "Events conducted by Department of Computer Science & Engineering ",
     explore: "/cse-events",
   },
   {
@@ -30,7 +30,7 @@ const CardsData = [
   {
     imgsrc: ECE,
     title: "Electronics & Communication",
-    text: "Events conducted by Department of Electronics and Communication Engineering",
+    text: "Events conducted by Department of Electronics & Communication Engineering",
     explore: "/ece-events",
   },
   {
@@ -48,25 +48,25 @@ const CardsData = [
   {
     imgsrc: ADS,
     title: "Artificial Intelligence & Data Science",
-    text: "Events conducted by Department of Artificial Intelligence and Data Science",
+    text: "Events conducted by Department of Artificial Intelligence & Data Science",
     explore: "/ads-events",
   },
   {
     imgsrc: ADS,
-    title: "Computer Science And Design",
-    text: "Events conducted by Department of Computer Science And Design",
+    title: "Computer Science & Design",
+    text: "Events conducted by Department of Computer Science & Design",
     explore: "/csd-events",
   },
   {
     imgsrc: ADS,
-    title: "Computer Science And Business Systems",
-    text: "Events conducted by Department of Computer Science And Business",
+    title: "Computer Science & Business Systems",
+    text: "Events conducted by Department of Computer Science & Business",
     explore: "/csbs-events",
   },
   {
     imgsrc: ADS,
-    title: "Computer Science And Cyber Security",
-    text: "Events conducted by Department of Computer Science And Cyber Secuirity",
+    title: "Computer Science & Cyber Security",
+    text: "Events conducted by Department of Computer Science & Cyber Secuirity",
     explore: "/cscy-events",
   },
 
