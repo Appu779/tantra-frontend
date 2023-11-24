@@ -76,7 +76,7 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="tel:">
+            <a href="tel:9567591753">
               <PhoneIcon />
             </a>
           </li>
