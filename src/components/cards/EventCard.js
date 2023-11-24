@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 // import "./Cards.css";
-import Arrow from "../../assets/icons/Arrow.svg";
+
 
 function EventCard(props) {
   let navigate = useNavigate();
