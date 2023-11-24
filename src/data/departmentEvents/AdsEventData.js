@@ -43,8 +43,8 @@ const AdsEventData = [
         description: 'Participants have to find solution for a given problem. Programming language will be either Python or C where they have to either turn off their screens or should be blindfolded before they type.(Team size will be two)',
         event_type: 'Blind Coding',
         fee: 'FREE',
-        student1: 'Aarsha Anil',
-        s1_phone: 9778177547,
+        student1: 'Rose Benny',
+        s1_phone: 9495089075,
         student2: 'Tibin',
         s2_phone: 9061201765,
         staff: 'Ms.Ancy K Sunny',
@@ -216,7 +216,7 @@ const AdsEventData = [
         dept:'ads',
         reg: true,
         group: true,
-        venue: 'Hardware Lab/Software Lab/S5 ADS/S3 ADS, Admin Block, Second/First floor',
+        venue: 'S3 ADS',
         time: '11:30-2:00'
     }
 ];
