@@ -289,7 +289,7 @@ const CseEventData = [
     description:
       "'Mystery Game' features 5 chances of escalating captcha challenges and an infinite mode for endless mystery-solving fun, merging puzzles with an immersive narrative.",
     event_type: "Entertainment Games",
-    fee: "FREE",
+    fee: 20,
     student1: "Ashish ",
     s1_phone: 8547413213,
     student2: "Arun Thomas",
