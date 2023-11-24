@@ -32,7 +32,7 @@ const CscyEventData = [
         dept:'cse',
         reg: true,
         group: true,
-        venue: 'Drawing Hall, Mech Block, 3rd floor',
+        venue: 'Drawing Hall, Admin Block, 3rd floor',
         time: '10:00'
 
     },
@@ -160,7 +160,7 @@ const CscyEventData = [
         dept:'cse',
         reg: true,
         group: true,
-        venue: 'Drawing Hall,Mech block,3rd floor',
+        venue: 'Drawing Hall,Admin block,3rd floor',
         time: '10:00'
     },
     {
@@ -178,7 +178,7 @@ const CscyEventData = [
         dept:'cse',
         reg: true,
         group: false,
-        venue: 'Drawing Hall,Mech block,3rd floor',
+        venue: 'Drawing Hall,Admin block,3rd floor',
         time: '10:00'
     },
     {
@@ -196,7 +196,7 @@ const CscyEventData = [
         dept:'cse',
         reg: true,
         group: false,
-        venue: 'Drawing Hall,Mech block,3rd floor',
+        venue: 'Drawing Hall,Admin block,3rd floor',
         time: '12:45'
     },
     {
@@ -232,7 +232,7 @@ const CscyEventData = [
         dept:'cse',
         reg: true,
         group: true,
-        venue: 'Drawing Hall,Mech block,3rd floor',
+        venue: 'Drawing Hall,Admin block,3rd floor',
         time: '10:00'
     },
     {
@@ -250,7 +250,7 @@ const CscyEventData = [
         dept:'cse',
         reg: true,
         group: true,
-        venue: 'Drawing Hall,Mech block,3rd floor',
+        venue: 'Drawing Hall,Admin block,3rd floor',
         time: '12:45'
     },
 ];
