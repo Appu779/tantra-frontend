@@ -68,11 +68,8 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a
-              href="https://www.linkedin.com/in/tantra-techfest-1a2381258/"
-              target="_blank"
-            >
-              <LinkedInIcon />
+            <a href="https://vjec.ac.in" target="_blank">
+              <SchoolIcon />
             </a>
           </li>
           <li>
