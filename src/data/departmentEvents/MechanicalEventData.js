@@ -14,7 +14,7 @@ const MechanicalEventData = [
         dept:'me',
         reg: true,
         group: true,
-        venue: 'CAD Lab ME De, 4th floor',
+        venue: 'CAD Lab ME Dept, 4th floor',
         time: '11.00 AM'
     },
     {
@@ -52,7 +52,7 @@ const MechanicalEventData = [
         reg: true,
         group: true,
         venue: 'College play ground',
-        time: '02.00 PM'
+        time: '02:00 PM'
     },
 
     {
@@ -71,7 +71,7 @@ const MechanicalEventData = [
         reg: true,
         group: false,
         venue: 'S7 ME, Ground Floor',
-        time: '01.00 PM'
+        time: '01:00 PM'
     },
     
     {
@@ -90,7 +90,7 @@ const MechanicalEventData = [
         reg: true,
         group: true,
         venue: 'Parking lot,ME,Ground floor',
-        time: '12.00 PM'
+        time: '12:00 PM'
     },
 
     {
@@ -109,7 +109,7 @@ const MechanicalEventData = [
         reg: true,
         group: true,
         venue: 'S7 ME-B,Ground floor',
-        time: '9.00 AM'
+        time: '9:00 AM'
     },
 
 
@@ -129,7 +129,7 @@ const MechanicalEventData = [
         reg: true,
         group: true,
         venue: 'Basketball court.',
-        time: '01.00 PM'
+        time: '01:00 PM'
     },
 
     {
@@ -148,7 +148,7 @@ const MechanicalEventData = [
         reg: true,
         group: true,
         venue: 'S5 ME-A,Ground floor.',
-        time: '10.00 AM'
+        time: '10:00 AM'
     },
     {
         event_id:89,
@@ -166,7 +166,7 @@ const MechanicalEventData = [
         reg: true,
         group: false,
         venue: 'College play ground.',
-        time: '10.00 AM'
+        time: '10:00 AM'
     },
    
 
@@ -186,7 +186,7 @@ const MechanicalEventData = [
         reg: true,
         group: false,
         venue: 'College auditorium.',
-        time: '01.45 PM'
+        time: '01:45 PM'
     },
     {
         event_id:91,
@@ -203,8 +203,8 @@ const MechanicalEventData = [
         dept:'me',
         reg: true,
         group: true,
-        venue: 'S3ME,1st Floor.',
-        time: '11.00 AM'
+        venue: 'S3 ME,1st Floor.',
+        time: '11:00 AM'
     },
 
     {
@@ -223,7 +223,7 @@ const MechanicalEventData = [
         reg: true,
         group: true,
         venue: 'BME Workshop, Near canteen.',
-        time: '11.30 AM'
+        time: '11:30 AM'
     },
 
     {
@@ -241,8 +241,8 @@ const MechanicalEventData = [
         dept:'me',
         reg: true,
         group: true,
-        venue: 'S5ME, Ground floor.',
-        time: '11.30 AM'
+        venue: 'S5 ME, Ground floor.',
+        time: '11:30 AM'
     },
 
     {
@@ -261,7 +261,7 @@ const MechanicalEventData = [
         reg: true,
         group: false,
         venue: 'S7 ME B, Ground floor.',
-        time: '10.00 AM'
+        time: '10:00 AM'
     },
 
     {
@@ -280,7 +280,7 @@ const MechanicalEventData = [
         reg: true,
         group: true,
         venue: 'S5 ME,Ground Floor',
-        time: '1.30 PM'
+        time: '1:30 PM'
     },
 
 ]

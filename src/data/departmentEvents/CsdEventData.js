@@ -1,10 +1,10 @@
 const CsdEventData = [
 
     {
-        event_id:101,
+        event_id: 101,
         name: 'Posterholic',
         description: 'Poster design using tools.',
-        event_type: 'Individual',
+        event_type: 'Competition',
         fee: 50,
         student1: 'Adithya Chandran',
         s1_phone: 8129657480,
@@ -12,17 +12,17 @@ const CsdEventData = [
         s2_phone: 7994216551,
         staff: 'Ms. Silna KV',
         prize: true,
-        dept:'csd',
+        dept: 'csd',
         reg: true,
         group: false,
         venue: 'Project lab, 3rd floor',
-        time: '10.00 AM - 11.00 AM'
+        time: '10:00 AM-11:00 AM'
     },
     {
-        event_id:102,
+        event_id: 102,
         name: 'Gamathon',
         description: 'Game showcase.',
-        event_type: 'Individual',
+        event_type: 'Competition',
         fee: 'FREE',
         student1: 'Ujwel c',
         s1_phone: 9847346284,
@@ -30,17 +30,18 @@ const CsdEventData = [
         s2_phone: 6238122338,
         staff: 'Mr. Akhil KK',
         prize: true,
-        dept:'csd',
+        dept: 'csd',
         reg: true,
         group: false,
-        venue: 'Project lab, 3rd floor',
-        time: '09.00 AM - 03.00 PM'
+        venue: 'S5 CSD',
+        time: '09:00 AM-03:00 PM',
+        spot: true,
     },
     {
-        event_id:103,
+        event_id: 103,
         name: 'Editormania',
         description: 'Video editing using modern tools.',
-        event_type: 'Individual',
+        event_type: 'Competition',
         fee: 50,
         student1: 'Jithin Jayaprakash',
         s1_phone: 7012610249,
@@ -48,15 +49,15 @@ const CsdEventData = [
         s2_phone: 9048822174,
         staff: 'Ms. Anju Ashokan',
         prize: true,
-        dept:'csd',
+        dept: 'csd',
         reg: true,
         group: false,
-        venue: 'Project lab, 3rd floor',
-        time: '10.00 AM - 12.00 PM'
+        venue: 'Language Lab',
+        time: '1:30 PM-3:00 PM'
     },
     {
         event_id: 13,
-        name: 'Trinity showdown',
+        name: 'Trinity Showdown',
         description: 'Battlegrounds Mobile India (BGMI): A TPP-FPP survival shooter game',
         event_type: 'Mobile Gamimg',
         fee: 200,
@@ -73,10 +74,10 @@ const CsdEventData = [
         time: '10:00 PM - 3:00 PM'
     },
     {
-        event_id:104,
+        event_id: 104,
         name: 'Mystic Verse',
         description: 'Experiencing Virtual reality.',
-        event_type: 'Individual',
+        event_type: 'Exhibition',
         fee: 'FREE',
         student1: ' Abhiram Krishna',
         s1_phone: 8848656908,
@@ -84,36 +85,38 @@ const CsdEventData = [
         s2_phone: 9947308264,
         staff: 'Ms. Karthika',
         prize: true,
-        dept:'csd',
+        dept: 'csd',
         reg: true,
         group: false,
         venue: 'Language lab, 2nd floor',
-        time: '09.00 AM to 03:30 PM'
+        time: '09:00 AM-03:30 PM',
+        spot: true
     },
-    
+
     {
-        event_id:105,
+        event_id: 105,
         name: 'Evolvemesh',
         description: 'Experiencing a mysterous world of technology.',
-        event_type: 'Individual',
+        event_type: 'Exhibition',
         fee: 'FREE',
         student1: ' Sharon Shaji',
         s1_phone: 9556728209,
-        student2: ' Salil',
+        student2: 'Salil',
         s2_phone: 9895288774,
         staff: 'Ms. Neethu',
         prize: true,
-        dept:'csd',
+        dept: 'csd',
         reg: true,
         group: false,
         venue: 'S3 CSD, Ground floor',
-        time: '10.00 am to 3.00 pm'
+        time: '9:00 AM-3:00 PM',
+        spot: true,
     },
     {
-        event_id:106,
+        event_id: 106,
         name: 'Dragonite',
         description: 'Gaming using PC/ Mob.',
-        event_type: 'Group',
+        event_type: 'Competition',
         fee: 100,
         student1: 'Hisana EK',
         s1_phone: 9778132048,
@@ -121,11 +124,11 @@ const CsdEventData = [
         s2_phone: 8137909465,
         staff: 'Ms. Priji Tomy',
         prize: true,
-        dept:'csd',
+        dept: 'csd',
         reg: true,
         group: true,
-        venue: 'S5 CSD,Ground floor ',
-        time: '9:30 am to 3:30 pm'
+        venue: 'Project Lab ',
+        time: '11:15 AM-12:15 PM'
     },
 ]
 export default CsdEventData;

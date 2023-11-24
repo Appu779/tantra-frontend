@@ -35,13 +35,13 @@ const CseEventData = [
     reg: true,
     group: true,
     venue: "S3 CSE A, Admin BLOCK,2nd Floor",
-    time: "	10:30 AM",
+    time: "10:30 AM",
   },
   {
     event_id: 3,
     name: "TechWiz",
     description:
-      "Tech Quiz to test participants' knowledge of science, technology, engineering, and maths. Divide them into teams for collaboration. Include rounds like trivia, general knowledge, tech terms, math puzzles, and coding.",
+      "Tech Quiz to test participants knowledge of science, technology and engineering. Include rounds like trivia, general knowledge, tech terms, puzzles and coding.",
     event_type: "Quiz Competition",
     fee: "FREE",
     student1: "Sona Saji",
@@ -73,7 +73,7 @@ const CseEventData = [
     reg: true,
     group: false,
     venue: "Computer Centre,Admin BLOCK,2nd Floor",
-    time: "11::00 AM",
+    time: "11:00 AM",
   },
   {
     event_id: 5,
@@ -98,7 +98,7 @@ const CseEventData = [
     event_id: 6,
     name: "Ctrl+Create",
     description:
-      "KeyCraft Challenge: Unleash your skills! Assemble cutting-edge keyboards against time to become the Ultimate KeyMaster in a thrilling event where every keystroke counts!.",
+      "KeyCraft Challenge: Unleash your skills! Assemble cutting-edge keyboards against time to become the Ultimate KeyMaster in a thrilling event where every keystroke counts!",
     event_type: "Keyboard Assembling",
     fee: 20,
     student1: "Riya George",
@@ -118,7 +118,7 @@ const CseEventData = [
     name: "Pixel Perfect",
     description:
       "Pixel Perfect Snapshot: A tech fest focused on prompt engineering. Participants create themed images using prompts, with a judging panel selecting the best image based on the given scenario.",
-    event_type: "Pompt Engineering",
+    event_type: "Prompt Engineering",
     fee: 20,
     student1: "Ann Riya Siby",
     s1_phone: 9495987884,
@@ -149,13 +149,13 @@ const CseEventData = [
     reg: true,
     group: false,
     venue: "S5 CSE-A class,Admin BLOCK,2nd Floor",
-    time: "	9:00 AM-4:00 PM",
+    time: "9:00 AM-4:00 PM",
   },
   {
     event_id: 9,
     name: "PlayForge",
     description:
-      " 2D game creation in 'PlayForge: Unity Unveiled.' Join a brief, code-free session to explore Unity's power and get inspired!",
+      "2D game creation in 'PlayForge: Unity Unveiled.' Join a brief, code-free session to explore Unity's power and get inspired!",
     event_type: "Workshop",
     fee: "FREE",
     student1: "Jewel John",
@@ -168,7 +168,7 @@ const CseEventData = [
     reg: true,
     group: false,
     venue: "Computer Centre,Admin BLOCK,2nd Floor",
-    time: "9:00-10:30",
+    time: "9:00 AM-10:30 AM",
   },
   {
     event_id: 10,
@@ -192,7 +192,7 @@ const CseEventData = [
     event_id: 11,
     name: "GAME-DOME",
     description:
-      "Where PlayStation comes alive! Experience the latest titles in a cutting-edge gaming environmen",
+      "Where PlayStation comes alive! Experience the latest titles in a cutting-edge gaming environment",
     event_type: "Playstation gaming",
     fee: 70,
     student1: "Ameya P V",
@@ -204,7 +204,7 @@ const CseEventData = [
     dept: "cse",
     reg: false,
     group: false,
-    venue: "S5 CSE A,Admin BLOCK,2nd Floor",
+    venue: "S5 CSE C,Admin BLOCK,2nd Floor",
     time: "9:00 AM - 4:00 PM",
     spot: true,
   },
@@ -225,11 +225,11 @@ const CseEventData = [
     reg: false,
     group: true,
     venue: "PG Lab",
-    time: "10:00AM- 3:00PM",
+    time: "10:00 AM- 3:00 PM",
   },
   {
     event_id: 13,
-    name: "Trinity showdown",
+    name: "Trinity Showdown",
     description:
       "Battlegrounds Mobile India (BGMI): A TPP-FPP survival shooter game",
     event_type: "Mobile Gamimg",
@@ -287,7 +287,7 @@ const CseEventData = [
     event_id: 16,
     name: "Mystery Digits",
     description:
-      "'Mystery Game' features 5 chances of escalating captcha challenges and an infinite mode for endless mystery-solving fun, merging puzzles with an immersive narrative.",
+      "Mystery Game features 5 chances of escalating captcha challenges and an infinite mode for endless mystery-solving fun, merging puzzles with an immersive narrative.",
     event_type: "Entertainment Games",
     fee: 20,
     student1: "Ashish ",
@@ -310,7 +310,7 @@ const CseEventData = [
     event_type: "Learn and crack cipherText ",
     fee: "FREE",
     student1: "Thomas James",
-    s1_phone: 907492060,
+    s1_phone: 9074920960,
     student2: "Anjal K",
     s2_phone: 7510667072,
     staff: "Ms. Nisha P",
@@ -325,7 +325,7 @@ const CseEventData = [
     event_id: 18,
     name: "Unheard Echoes",
     description:
-      "Team up in pair to solve a gripping a murder mystery. First the teams will be allotted wth points , when you hit roadblocks , you cal ask for cluesbut points will be reduced .The first duo to unravel the mystery will be the winners. ",
+      "Team up in pair to solve a gripping a murder mystery. First the teams will be allotted wth points , when you hit roadblocks , you can ask for clues but points will be reduced .The first duo to unravel the mystery will be the winners. ",
     event_type: "Mobile Game",
     fee: "FREE",
     student1: "Malavika A Manoj ",

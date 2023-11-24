@@ -15,7 +15,7 @@ const EceEventData = [
         reg: true,
         group: true,
         venue: 'Analog Electronics Lab',
-        time: '9:30AM-4:10PM'
+        time: '9:30 AM-4:10 PM'
     },
     {
         event_id: 22,
@@ -33,7 +33,7 @@ const EceEventData = [
         reg: true,
         group: true,
         venue: 'Analog Electronics Lab',
-        time: '9:30AM-2:00PM'
+        time: '9:30 AM-2:00 PM'
 
     },
     {
@@ -52,7 +52,7 @@ const EceEventData = [
         reg: true,
         group: true,
         venue: 'Advanced Communication Lab',
-        time: '9 AM-10:30 PM'
+        time: '9:00 AM-10:30 PM'
     },
     {
         event_id: 24,
@@ -69,12 +69,12 @@ const EceEventData = [
         dept: 'ece',
         reg: true,
         group: false,
-        venue: 'Ground Floor',
-        time: '9:00am-4:00pm'
+        venue: 'Ground Floor, EC Block',
+        time: '9:00 AM-4:00 PM'
     },
     {
         event_id: 25,
-        name: 'Treasure Hunt(Electronics)',
+        name: 'Treasure Hunt',
         description: 'It is a interactive and engaging activity where participants follows a series of clues or puzzle to discover a hidden tressure.',
         event_type: 'Games',
         fee: 50,
@@ -88,7 +88,7 @@ const EceEventData = [
         reg: true,
         group: true,
         venue: 'Research Lab',
-        time: '10:00AM-1PM'
+        time: '10:00 AM-1:00 PM'
     },
     {
         event_id: 26,
@@ -105,8 +105,8 @@ const EceEventData = [
         dept: 'ece',
         reg: true,
         group: false,
-        venue: 'Analog Electronics Lab',
-        time: '10:00AM-1PM'
+        venue: 'Analog Integrated Lab',
+        time: '10:00 AM-1:00 PM'
     },
     {
         event_id: 27,
@@ -124,7 +124,7 @@ const EceEventData = [
         reg: true,
         group: true,
         venue: 'Logic Circuit Design Lab',
-        time: '11:30AM-1PM'
+        time: '11:30 AM-1:00 PM'
     },
     {
         event_id: 28,
@@ -142,7 +142,7 @@ const EceEventData = [
         reg: true,
         group: false,
         venue: 'Tutorial Room (UG)',
-        time: '2 PM-4 PM'
+        time: '2:00 PM-4:00 PM'
     },
     {
         event_id: 29,
@@ -160,7 +160,7 @@ const EceEventData = [
         reg: true,
         group: false,
         venue: 'Research Lab',
-        time: '9:30AM-11AM'
+        time: '9:30 AM-11:00 AM'
     },
     {
         event_id: 30,
@@ -177,8 +177,8 @@ const EceEventData = [
         dept: 'ece',
         reg: true,
         group: true,
-        venue: 'Ground Floor',
-        time: '9:30AM-4:10PM'
+        venue: 'Ground Floor, EC Block',
+        time: '9:30 AM-4:10 PM'
     },
     {
         event_id: 31,
@@ -186,7 +186,7 @@ const EceEventData = [
         description: 'Idea exploration is like embarking on a journey through the landscape of creativity. It involves delving into the vast realms of possibilities, connecting disparate thoughts, and uncovering novel concepts.',
         event_type: 'Competitions',
         fee: 'FREE',
-        student1: 'Navya m',
+        student1: 'Navya M',
         s1_phone: 7034534269,
         student2: 'Melwin Paul',
         s2_phone: 9207065246,
@@ -196,7 +196,7 @@ const EceEventData = [
         reg: true,
         group: false,
         venue: 'Advanced Communication Lab',
-        time: '2 PM-4 PM'
+        time: '2:00 PM-4:00 PM'
     },
     {
         event_id: 32,
@@ -232,7 +232,7 @@ const EceEventData = [
         reg: true,
         group: false,
         venue: 'Advanced Communication Lab',
-        time: '11 AM-1:00 PM'
+        time: '11:00 AM-1:00 PM'
     },
     {
         event_id: 34,
@@ -250,7 +250,7 @@ const EceEventData = [
         reg: true,
         group: false,
         venue: 'Intel Galileo Lab',
-        time: '9:30 AM-12 PM'
+        time: '9:30 AM-12:00 PM'
     },
     {
         event_id: 35,
@@ -267,8 +267,8 @@ const EceEventData = [
         dept: 'ece',
         reg: true,
         group: false,
-        venue: 'First Floor',
-        time: '9:30 AM-12 PM'
+        venue: 'Ground Floor, EC Block',
+        time: '9:30 AM-12:00 PM'
     },
     {
         event_id: 36,
@@ -286,7 +286,7 @@ const EceEventData = [
         reg: true,
         group: false,
         venue: 'Communication Engineering Lab',
-        time: '9:30AM-11 AM'
+        time: '9:30 AM-11:00 AM'
     },
     {
         event_id: 37,
@@ -304,7 +304,7 @@ const EceEventData = [
         reg: true,
         group: false,
         venue: 'Logic Circuit Design Lab',
-        time: '9:30AM to 11 AM'
+        time: '9:30 AM-11:00 AM'
     },
     {
         event_id: 42,
@@ -321,8 +321,8 @@ const EceEventData = [
         dept: 'ece',
         reg: true,
         group: false,
-        venue: 'S3 ECE ECE BLOCK',
-        time: '9:30AM-4:10PM'
+        venue: 'S3 ECE Block',
+        time: '9:30 AM-4:10  PM'
     },
     {
         event_id: 38,
@@ -339,8 +339,8 @@ const EceEventData = [
         dept: 'ece',
         reg: true,
         group: false,
-        venue: 'S5 ECE',
-        time: '9:30AM-4:10PM'
+        venue: 'S5 ECE Block',
+        time: '9:30 AM-4:10 PM'
     },
     {
         event_id: 39,
@@ -349,16 +349,16 @@ const EceEventData = [
         event_type: 'Exhibition',
         fee: 'FREE',
         student1: '',
-        s1_phone: 8129237881,
+        s1_phone: 0,
         student2: '',
-        s2_phone: 8075814046,
+        s2_phone: 0,
         staff: '',
         prize: false,
         dept: 'ece',
         reg: true,
         group: false,
         venue: 'S3 ECE',
-        time: '9:30AM-4:10PM'
+        time: '9:30 AM-4:10 PM'
     },
     {
         event_id: 40,
@@ -375,8 +375,8 @@ const EceEventData = [
         dept: 'ece',
         reg: true,
         group: false,
-        venue: 'F5',
-        time: '9:30AM-4:10PM'
+        venue: 'F5 ECE Block',
+        time: '9:30 AM-4:10 PM'
     },
     {
         event_id: 41,
@@ -394,25 +394,7 @@ const EceEventData = [
         reg: true,
         group: false,
         venue: 'S7 ECE',
-        time: '9:30AM-4:10PM'
-    },
-    {
-        event_id: 42,
-        name: 'Talent Expo',
-        description: 'xplore a showcase of talents and creativity',
-        event_type: '',
-        fee: 'FREE',
-        student1: '',
-        s1_phone: '',
-        student2: '',
-        s2_phone: '',
-        staff: '',
-        prize: false,
-        dept: 'ece',
-        reg: true,
-        group: false,
-        venue: 'S3 ECE',
-        time: '9:30AM-4:10PM'
+        time: '9:30 AM-4:10 PM'
     },
 ];
 

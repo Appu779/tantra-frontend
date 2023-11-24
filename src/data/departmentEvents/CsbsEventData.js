@@ -14,14 +14,14 @@ const CsbsEventData = [
         dept: 'cse',
         reg: true,
         group: false,
-        venue: 'G9 ( S3 CEBS),Ground floor,ADMIN BLOCK',
-        time: '10.00 AM - 03.00 PM'
+        venue: 'G9 S3 CEBS,Ground floor,ADMIN BLOCK',
+        time: '10:00 AM-03:00 PM'
     },
 
     {
         event_id: 122,
         name: 'Property Quest',
-        description: 'Compete in 4 rounds, buying properties, earning credits, and winning.',
+        description: 'Compete in 4 rounds, buying properties, earning credits and winning',
         event_type: 'Competition',
         fee: 80,
         student1: 'Faiza Fathima',
@@ -33,8 +33,8 @@ const CsbsEventData = [
         dept: 'cse',
         reg: true,
         group: true,
-        venue: 'Central Bascket ball court,Ground floor',
-        time: '09.30 AM - 01.00 PM'
+        venue: 'Central Bascket ball court and Ground floor',
+        time: '09:30 AM-1:00 PM'
     },
 
     {
@@ -43,7 +43,7 @@ const CsbsEventData = [
         description: 'Escape prison through puzzles, teamwork, coding challenges, and strategic planning.',
         event_type: 'Games',
         fee: 40,
-        student1: 'TANWI J R',
+        student1: 'Tanwi J R',
         s1_phone: 9945990242,
         student2: 'Theertha',
         s2_phone: 9061382468,
@@ -52,8 +52,8 @@ const CsbsEventData = [
         dept: 'cse',
         reg: true,
         group: true,
-        venue: 'G8 (S7 ADS),Ground floor, Admin block',
-        time: '10.00 AM - 03.00 PM'
+        venue: 'G8 S7 ADS,Ground floor, Admin block',
+        time: '10:00 AM-3:00 PM'
     },
 ]
 export default CsbsEventData;
