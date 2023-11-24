@@ -7,7 +7,7 @@ const MarqueeComp = ({ word, mdir = "left", rot = "rotate-0" }) => {
         <div className="py-3 bg-zinc-700">
           <span className="py-1.5 font-sans text-xl bg-black flex pl-3">
             TANTRA <span className="bg-gray-300  text-black mx-2 px-1">23</span>
-            <ul className="flex flex-row gap-5 bg-gray-400 text-black list-disc mr-3">
+            <ul className="flex flex-row gap-5 bg-gray-400 text-black list-disc mr-3 font-semibold">
               <li className="mr-2 list-none ml-2">WORKSHOPS</li>
               <li className="mr-2">EXHIBITIONS</li>
               <li className="mr-2">COMPETITIONS</li>
