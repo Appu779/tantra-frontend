@@ -34,7 +34,7 @@ function Footer() {
           </ul>
         </div>
         <div className="col-span-2 sm:col-span-1 font-semibold pl-10 sm:pl-0 sm:w-2/3 sm:mx-auto sm:self-center">
-          <p className="flex flex-col gap-2 sm:gap-7 text-gray-600 pt-0.5  sm:pt-0 ">
+          <p className="flex flex-col gap-2 sm:gap-7 text-gray-600 pt-0.5 text-left self-end pl-5 sm:pl-0 sm:pt-0 ">
             Jyothi Nagar, Chemperi (P.O) Kannur 670632, Kerala, India
             <a href="https://maps.app.goo.gl/MTAuhiGcovmXgkTd7" target="_blank">
               <LocationOn className="text-gray-800" />
