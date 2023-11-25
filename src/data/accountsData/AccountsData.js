@@ -49,6 +49,18 @@ const AccountsData = {
         ifsc: 'SIBL0000078',
         bankName: 'Bank South Indian bank, Thalassery',
     },
+    csbs: {
+        name: 'HOD Computer Science & Engineering',
+        accountNo: '0078053000079580',
+        ifsc: 'SIBL0000078',
+        bankName: 'Bank South Indian bank, Thalassery',
+    },
+    cscy: {
+        name: 'HOD Computer Science & Engineering',
+        accountNo: '0078053000079580',
+        ifsc: 'SIBL0000078',
+        bankName: 'Bank South Indian bank, Thalassery',
+    }
     // comm:{
     //     name: '',
     //     accountNo: '',
