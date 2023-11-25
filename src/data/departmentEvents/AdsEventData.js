@@ -91,7 +91,7 @@ const AdsEventData = [
         reg: true,
         group: true,
         venue: 'S5 CSE B,Admin Block, 2nd floor',
-        time: '10:00 PM - 3:00 PM'
+        time: '10:00 AM - 3:00 PM'
     },
     {
         event_id:146,

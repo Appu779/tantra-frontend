@@ -6,7 +6,7 @@ import CardsData from "../../data/cardsData/CardsMinimal";
 
 function Cards() {
   return (
-    <div className=" mx-auto py-20">
+    <div className=" mx-auto pt-20 pb-10 sm:pb-20">
       <h1 className="text-center font-mono font-bold text-gray-400 text-6xl sm:text-8xl">
         Events
       </h1>

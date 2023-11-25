@@ -4,7 +4,7 @@ const AccountsData = {
         accountNo: '0078053000079580',
         ifsc: 'SIBL0000078',
         bankName: 'Bank South Indian bank, Thalassery',
-        
+
     },
     aei: {
         name: 'HOD Applied Electronics & Instrumentation',
@@ -35,7 +35,7 @@ const AccountsData = {
         accountNo: '0078053000079641',
         ifsc: 'SIBL0000078',
         bankName: 'Bank South Indian bank, Thalassery',
-        
+
     },
     eee: {
         name: 'HOD Electrical & Electronics Engineering',

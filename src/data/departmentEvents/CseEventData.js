@@ -63,7 +63,7 @@ const CseEventData = [
       "Participants have to find solution for a given problem using any programming language (available from HackerRank coding Environment). Particpants must have a hackerrank account",
     event_type: "Hackerrank",
     fee: "FREE",
-    student1: "Ashik Johnson",
+    student1: "Ashik Jhonson",
     s1_phone: 9995460280,
     student2: "Ananya",
     s2_phone: 9400624824,
@@ -244,7 +244,7 @@ const CseEventData = [
     reg: true,
     group: true,
     venue: "S5 CSE B,Admin BLOCK, 2nd Floor",
-    time: "10:00 PM - 3:00 PM",
+    time: "10:00 AM - 3:00 PM",
   },
   {
     event_id: 14,
