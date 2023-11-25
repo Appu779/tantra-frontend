@@ -326,7 +326,7 @@ const EceEventData = [
     },
     {
         event_id: 38,
-        name: 'Communication Room',
+        name: 'Melinoe: The Journey to moon',
         description: 'Step into a realm where the art of communication takes center stage—welcome to "Connections Unleashed: The Communication Room Experience." This unique event is a celebration of the diverse ways we connect, collaborate, and communicate in our ever-evolving world.',
         event_type: 'ElectroComm Room',
         fee: 'FREE',
