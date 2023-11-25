@@ -63,7 +63,7 @@ const CsdEventData = [
         fee: 200,
         student1: 'Dalven Jose',
         s1_phone: 6282306013,
-        student2: 'Ms Amish Harinanadan',
+        student2: 'Ms Amish Harinanadan',                           
         s2_phone: 9207882788,
         staff: 'Ms.Rahna C M',
         prize: true,
@@ -71,7 +71,7 @@ const CsdEventData = [
         reg: false,
         group: true,
         venue: 'S5 CSE B,Admin Block, 2nd floor',
-        time: '10:00 PM - 3:00 PM'
+        time: '10:00 AM - 3:00 PM'
     },
     {
         event_id: 104,
