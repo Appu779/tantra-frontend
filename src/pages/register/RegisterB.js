@@ -187,9 +187,9 @@ function RegisterB() {
                                                 {fee !== 'FREE' && fee !== ''?
                                                     <div>
                                                         FEE: Rs. {fee}
-                                                        <div className='text-red-900'>Transfer the amount to the account mentioned below: *</div>
+                                                        <div className='text-red-500 text-base font-bold'>Transfer the amount to the account mentioned below: *</div>
                                                         <div className='flex'>
-                                                            <div className='flex-1'>
+                                                            <div className='flex-1 font-bold'>
                                                                 <div>Name: {AccountsData[dept].name}</div>
                                                                 <div>A/c No: {AccountsData[dept].accountNo}</div>
                                                                 <div>IFSC: {AccountsData[dept].ifsc}</div>
@@ -210,7 +210,7 @@ function RegisterB() {
                                                             :null
 
                                                         }
-                                                        <div className='text-red-900 font-bold'>Send Screenshot of payment to {student1} +91{s1_phone}  *</div>
+                                                        <div className='text-red-500 text-sm font-bold'>Send Screenshot of payment to {student1} +91{s1_phone}  *</div>
                                                         <div className='mt-2'>
                                                             <label>Transaction ID: *</label>
                                                             <input
