@@ -41,7 +41,7 @@ const CseEventData = [
     event_id: 3,
     name: "TechWiz",
     description:
-      "Tech Quiz to test participants knowledge of science, technology and engineering. Include rounds like trivia, general knowledge, tech terms, puzzles and coding. Registration Early bird: 50 registrations free. Regular fee: 30",
+      "Tech Quiz to test participants knowledge of science, technology and engineering. Include rounds like trivia, general knowledge, tech terms, puzzles and coding. Early bird: 50 registrations free. Regular fee: 30",
     event_type: "Quiz Competition",
     fee: 30,
     student1: "Sona Saji",
@@ -173,7 +173,7 @@ const CseEventData = [
   {
     event_id: 10,
     name: "CyberRelay",
-    description: "A workshop on Cyber Security and Ethical Hacking",
+    description: "A workshop on Cyber Security and Ethical Hacking. Early Bird:49 Regular Fee: 99",
     event_type: "Workshop",
     fee: 49,
     student1: "Sreeram Pavithran",
