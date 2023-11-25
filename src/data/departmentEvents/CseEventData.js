@@ -41,9 +41,9 @@ const CseEventData = [
     event_id: 3,
     name: "TechWiz",
     description:
-      "Tech Quiz to test participants knowledge of science, technology and engineering. Include rounds like trivia, general knowledge, tech terms, puzzles and coding.",
+      "Tech Quiz to test participants knowledge of science, technology and engineering. Include rounds like trivia, general knowledge, tech terms, puzzles and coding. Registration Early bird: 50 registrations free. Regular fee: 30",
     event_type: "Quiz Competition",
-    fee: "FREE",
+    fee: 30,
     student1: "Sona Saji",
     s1_phone: 9947102198,
     student2: "Sreya",

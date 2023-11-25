@@ -36,7 +36,7 @@ function RegisterB() {
     const url = "https://busy-plum-salmon-shoe.cyclic.app/register";
     const navigate = useNavigate();
     const { state } = useLocation();
-    const { name, fee, dept, event_id, group } = state;
+    const { name, fee, dept, event_id, group, student1, s1_phone } = state;
     const [disable, setDisable] = useState(false);
     const [netwarning, setNetWarning] = useState(false);
 
@@ -184,7 +184,7 @@ function RegisterB() {
                                                     </div>
                                             }
                                             <div className='md:col-span-5'>
-                                                {fee !== 'FREE' && fee !== '' && event_id!=13 ?
+                                                {fee !== 'FREE' && fee !== ''?
                                                     <div>
                                                         FEE: Rs. {fee}
                                                         <div className='text-red-900'>Transfer the amount to the account mentioned below: *</div>
@@ -204,6 +204,13 @@ function RegisterB() {
                                                                 />
                                                             </div> */}
                                                         </div>
+                                                        {
+                                                            event_id === 12?
+                                                            <div className='text-red-900 font-bold'>After payment fill this form: <a href="https://forms.gle/9ebV7KKypY58bQgC7" target='_blank' className='text-blue-900'>Team info form</a>  *</div>
+                                                            :null
+
+                                                        }
+                                                        <div className='text-red-900 font-bold'>Send Screenshot of payment to {student1} +91{s1_phone}  *</div>
                                                         <div className='mt-2'>
                                                             <label>Transaction ID: *</label>
                                                             <input
@@ -215,43 +222,7 @@ function RegisterB() {
                                                             />
                                                         </div>
                                                     </div> : null}
-                                                {
-                                                    event_id === 13 ?
-                                                        <div>
-                                                            FEE: Rs. {fee}
-                                                            <div className='text-red-900'>Transfer the amount to the account mentioned below: *</div>
-                                                            <div className='flex'>
-                                                                <div className='flex-1'>
-                                                                    <div>Name: {AccountsData[dept].name}</div>
-                                                                    <div>A/c No: {AccountsData[dept].accountNo}</div>
-                                                                    <div>IFSC: {AccountsData[dept].ifsc}</div>
-                                                                    <div>BANK: {AccountsData[dept].bankName}</div>
-                                                                </div>
-                                                                {/* <div className='pr-9'>
-                                                                <img
-                                                                    src={AccountsData[dept].Qr}
-                                                                    alt="QR Code"
-                                                                    width="100"
-                                                                    height="100"
-                                                                />
-                                                            </div> */}
-                                                            </div>
-                                                            <div className='text-red-900 font-bold'>Send Screenshot of payment to Dalven Jose +916282306013  *</div>
-                                                            <div className='mt-2'>
-                                                                <label>Transaction ID: *</label>
-                                                                <input
-                                                                    type="text"
-                                                                    placeholder="Transaction ID"
-                                                                    className="h-10 border mt-1 rounded px-4 w-full bg-white"
-                                                                    {...register('tid')}
-                                                                    required
-                                                                />
-                                                            </div>
-                                                        </div> : null}
-
-
                                             </div>
-
                                             {warning ? <div className='p-1 text-red-600 md:col-span-5'>*Please fill all the fields.</div> : null}
                                             {netwarning ? <div className='p-1 text-red-600 font-bold md:col-span-5'>*Please check your network connection</div> : null}
 
