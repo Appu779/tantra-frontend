@@ -244,7 +244,7 @@ const CseEventData = [
     reg: true,
     group: true,
     venue: "S5 CSE B,Admin BLOCK, 2nd Floor",
-    time: "10:00 PM - 3:00 PM",
+    time: "10:00 AM - 3:00 PM",
   },
   {
     event_id: 14,
