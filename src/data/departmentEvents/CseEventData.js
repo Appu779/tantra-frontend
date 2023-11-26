@@ -40,7 +40,7 @@ const CseEventData = [
     event_id: 2,
     name: "Terminal Treasures",
     description:
-      "Exploring Linux systems through terminal and capture flag clues that lead to next stops in the speed-run to final destination.",
+      "Exploring Linux systems through terminal and capture flag clues that lead to next stops in the speed-run to final destination. Group(2 members)",
     event_type: "Capture The Flag",
     fee: "FREE",
     student1: "Anson Leon Sebastian",

@@ -202,7 +202,7 @@ const CscyEventData = [
     {
         event_id: 172,
         name: 'Cyber buzz',
-        description: '',
+        description: 'With a team of two,Crack the cyber quiz and win the prize',
         event_type: 'Cyber buzz',
         fee: 20,
         student1: 'Sreelakshmi Suresh',
