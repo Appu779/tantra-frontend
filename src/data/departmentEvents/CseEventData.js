@@ -183,7 +183,7 @@ const CseEventData = [
     staff: "Ms. Ramitha",
     prize: false,
     dept: "cse",
-    reg: false,
+    reg: true,
     group: false,
     venue: "Computer Centre,Admin BLOCK,2nd Floor",
     time: "9:00 AM-10:30 AM",
