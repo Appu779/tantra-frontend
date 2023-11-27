@@ -129,7 +129,7 @@ const CscyEventData = [
     {
         event_id: 168,
         name: 'Relay Coding',
-        description: 'Team of three, silent coding relay. First starts, others continue.',
+        description: 'Team of three, silent coding relay. First starts, others continue.Group(3 members)',
         event_type: 'Relay Coding',
         fee: 30,
         student1: 'Faheema',
@@ -239,7 +239,7 @@ const CscyEventData = [
     {
         event_id: 174,
         name: 'PictoCipherWhiz',
-        description: 'Tech-themed Pictionary with QR codes. Guess words as time ticks.',
+        description: 'Tech-themed Pictionary with QR codes. Guess words as time ticks.Group(3 member)',
         event_type: 'QR Code Pictionary',
         fee: 10,
         student1: 'Shreya Sreekumar',
