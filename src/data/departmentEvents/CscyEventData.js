@@ -239,7 +239,7 @@ const CscyEventData = [
     {
         event_id: 174,
         name: 'PictoCipherWhiz',
-        description: 'Tech-themed Pictionary with QR codes. Guess words as time ticks.Group(3 member)',
+        description: 'Tech-themed Pictionary with QR codes. Guess words as time ticks.Group(3 members)',
         event_type: 'QR Code Pictionary',
         fee: 10,
         student1: 'Shreya Sreekumar',
