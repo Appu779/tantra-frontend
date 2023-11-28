@@ -4,7 +4,7 @@ const CseEventData = [
     name: "CyberRelay",
     description: "A workshop on Cyber Security and Ethical Hacking. Early Bird:49 Regular Fee: 99 . Speaker Mr. Farhan Bin Fazil",
     event_type: "Workshop",
-    fee: 49,
+    fee: 99,
     student1: "Sreeram Pavithran",
     s1_phone: 7736024269,
     student2: "Vaishnav Krishna",
