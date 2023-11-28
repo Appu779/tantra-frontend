@@ -183,6 +183,12 @@ function RegisterB() {
                                                         </div>
                                                     </div>
                                             }
+                                            {
+                                                event_id === 1 ?
+                                                    <div className='text-red-900 font-bold md:col-span-3'>Check the rules here: <a href="https://docs.google.com/document/d/1zboD0huEgHCwNr-J1aKITr2V8uywSrlx/edit?usp=sharing&ouid=106497037501910482479&rtpof=true&sd=true" target='_blank' className='text-blue-900'>Event Rules</a>  *</div>
+                                                    : null
+
+                                            }
                                             <div className='md:col-span-5'>
                                                 {fee !== 'FREE' && fee !== ''?
                                                     <div>
@@ -206,8 +212,8 @@ function RegisterB() {
                                                         </div>
                                                         {
                                                             event_id === 12?
-                                                            <div className='text-red-900 font-bold'>After payment fill this form: <a href="https://forms.gle/9ebV7KKypY58bQgC7" target='_blank' className='text-blue-900'>Team info form</a>  *</div>
-                                                            :null
+                                                                <div className='text-red-900 font-bold'>After payment fill this form: <a href="https://forms.gle/9ebV7KKypY58bQgC7" target='_blank' className='text-blue-900'>Team info form</a>  *</div>
+                                                                :null
 
                                                         }
                                                         <div className='text-red-500 text-sm font-bold'>Send Screenshot of payment to {student1} +91{s1_phone}  *</div>
