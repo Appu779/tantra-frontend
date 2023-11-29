@@ -3,7 +3,7 @@ const CsdEventData = [
     {
         event_id: 101,
         name: 'Posterholic',
-        description: 'Poster design using tools.',
+        description: 'Photo manipulation',
         event_type: 'Competition',
         fee: 50,
         student1: 'Adithya Chandran',
@@ -117,7 +117,7 @@ const CsdEventData = [
         name: 'Dragonite',
         description: 'Gaming using PC/ Mob.',
         event_type: 'Competition',
-        fee: 100,
+        fee: 'FREE',
         student1: 'Hisana EK',
         s1_phone: 9778132048,
         student2: 'Muhammad Razi',
