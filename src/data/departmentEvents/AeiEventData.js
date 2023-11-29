@@ -1,7 +1,7 @@
 const AeiEventData = [
     {
         event_id:181,
-        name: 'TechExpo',
+        name: 'Project Expo',
         description: 'Project Expo is a technical event in which the participants should submit their project ideas.',
         event_type: 'Competition',
         fee: 'FREE',
@@ -19,7 +19,7 @@ const AeiEventData = [
     },
     {
         event_id:182,
-        name: 'Techfuso',
+        name: 'Technical Exhibition',
         description: 'A platform for the innovative technology in automation/instrumentation field.',
         event_type: 'Exhibition',
         fee: 'FREE',
@@ -38,10 +38,10 @@ const AeiEventData = [
     },
     {
         event_id:183,
-        name: 'Robosoc',
+        name: 'Robo Soccer',
         description: 'A manual robot which can compete on an arena specially designed for robotic soccer match.',
         event_type: 'Competition',
-        fee: 100,
+        fee: 50,
         student1: 'Tom Jessan',
         s1_phone: 7025918930,
         student2: 'Alen Johns',
@@ -56,10 +56,10 @@ const AeiEventData = [
     },
     {
         event_id:184,
-        name: 'Top Gear',
+        name: 'Robo Race',
         description: 'A robot either wired or wireless within the specified area that can be operated manually and can travel through all turns of the track.',
         event_type: 'Competition',
-        fee: 100,
+        fee: 50,
         student1: 'Jude Jomon',
         s1_phone: 7025668176,
         student2: 'Noel Biju',
@@ -77,7 +77,7 @@ const AeiEventData = [
         name: 'Treasure hunt',
         description: 'To boost both your logic and technique, the idea of hunting for hidden treasures with different level technically.',
         event_type: 'Game',
-        fee: 100,
+        fee: 50,
         student1: 'Akshar Mohan',
         s1_phone: 9495205950,
         student2: 'Mohammed Amal',
@@ -92,7 +92,7 @@ const AeiEventData = [
     },
     {
         event_id:186,
-        name: 'Pitchup',
+        name: 'Paper Presentation',
         description: 'An individual competition where each participant is required to make a paper and then present it in front of the juries.',
         event_type: 'Competition',
         fee: 'FREE',
@@ -110,7 +110,7 @@ const AeiEventData = [
     },
     {
         event_id:187,
-        name: 'Quizard',
+        name: 'Technical Quiz',
         description: 'A contest in which participants test what they know technically by answering questions.',
         event_type: 'Competition',
         fee: 'FREE',
@@ -128,7 +128,7 @@ const AeiEventData = [
     },
     {
         event_id:188,
-        name: 'Brainstorming',
+        name: 'Idea Competition',
         description: 'Share ideas for innovation. And present in front of juries .',
         event_type: 'Competition',
         fee: 'FREE',
@@ -146,7 +146,7 @@ const AeiEventData = [
     },
     {
         event_id:189,
-        name: 'Sigen',
+        name: 'Signal Generation',
         description: 'To Generate the given waveform by using stardad signal with combination of signal processing circuit/ software.',
         event_type: 'Competition',
         fee: 'FREE',
@@ -164,7 +164,7 @@ const AeiEventData = [
     },
     {
         event_id:190,
-        name: 'Buggfinder',
+        name: 'Circuit Debugging',
         description: 'Analyzing a circuit and detecting and correcting if any errors.',
         event_type: 'Competition',
         fee: 'FREE',
@@ -182,7 +182,7 @@ const AeiEventData = [
     },
     {
         event_id:191,
-        name: 'I Bee',
+        name: 'Integration Bee',
         description: 'Different forms of integration questions will be given, candidates have to solve it.',
         event_type: 'Competition',
         fee: 'FREE',

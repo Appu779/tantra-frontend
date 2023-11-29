@@ -20,6 +20,10 @@ const branches = [
     'CSE', 'ME', 'AEI', 'ECE', 'ADS', 'CE', 'EEE', 'CSD', 'CSBS', 'CSCY', 'Other'
 ]
 
+const games = [
+    'Chess', 'Hand and Toes', 'Memory game', 'Balance me( nut )', 'Pyramid by glass', 'Filp cross xos', 'Bullseye', 'Efootball', 'Buzzwire', 'Penalty shootout', 'Cube solving'
+]
+
 const sem = [
     'S1', 'S3', 'S5', 'S7', 'NIL'
 ]
@@ -135,10 +139,19 @@ function RegisterB() {
                                                         <input type="text" className="h-10 border mt-1 rounded px-4 w-full bg-white" placeholder="Institute Name" {...register('college')} />
                                                     </div>
                                             }
-                                            <div className="md:col-span-2">
-                                                <label for="city">Branch/Class *</label>
-                                                <Select options={branches} st={branch} setSt={setBranch} />
-                                            </div>
+                                            {
+                                                event_id === 30 ?
+                                                    <div className="md:col-span-2">
+                                                        <label for="city">Select game *</label>
+                                                        <Select options={games} st={branch} setSt={setBranch} />
+                                                    </div> :
+                                                    <div className="md:col-span-2">
+                                                        <label for="city">Branch/Class *</label>
+                                                        <Select options={branches} st={branch} setSt={setBranch} />
+                                                    </div>
+
+                                            }
+
                                             {
                                                 event_id === 1000 ? <div className="md:col-span-5">
                                                     <label for="address">Please upload your document as your team name in PDF *</label>
@@ -190,7 +203,7 @@ function RegisterB() {
 
                                             }
                                             <div className='md:col-span-5'>
-                                                {fee !== 'FREE' && fee !== ''?
+                                                {fee !== 'FREE' && fee !== '' ?
                                                     <div>
                                                         FEE: Rs. {fee}
                                                         <div className='text-red-500 text-base font-bold'>Transfer the amount to the account mentioned below: *</div>
@@ -211,9 +224,9 @@ function RegisterB() {
                                                             </div> */}
                                                         </div>
                                                         {
-                                                            event_id === 12?
+                                                            event_id === 12 ?
                                                                 <div className='text-red-900 font-bold'>After payment fill this form: <a href="https://forms.gle/9ebV7KKypY58bQgC7" target='_blank' className='text-blue-900'>Team info form</a>  *</div>
-                                                                :null
+                                                                : null
 
                                                         }
                                                         <div className='text-red-500 text-sm font-bold'>Send Screenshot of payment to {student1} +91{s1_phone}  *</div>

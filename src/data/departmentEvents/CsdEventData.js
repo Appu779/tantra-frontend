@@ -130,5 +130,23 @@ const CsdEventData = [
         venue: 'Project Lab ',
         time: '11:15 AM-12:15 PM'
     },
+    {
+        event_id: 107,
+        name: 'Mini Militia',
+        description: 'Mobile Gaming',
+        event_type: 'Mobile Gaming',
+        fee: 100,
+        student1: 'Razi',
+        s1_phone: 8137909465,
+        student2: 'Muhammad Razi',
+        s2_phone: 8137909465,
+        staff: 'Ms. Priji Tomy',
+        prize: true,
+        dept: 'csd',
+        reg: true,
+        group: true,
+        venue: 'Project Lab ',
+        time: '11:15 AM-12:15 PM'
+    },
 ]
 export default CsdEventData;

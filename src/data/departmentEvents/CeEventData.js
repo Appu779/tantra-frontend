@@ -73,6 +73,24 @@ const CeEventData = [
         time: 'Full Day'
     },
     {
+        event_id: 76,
+        name: '3D Modelling',
+        description: 'Crafting realities in the world of 3D Modeling, Exhibiting 3d printing devices that creates a physical object from a digital design.',
+        event_type: 'Exhibition',
+        fee: 'FREE',
+        student1: 'Archana K',
+        s1_phone: 9074796631,
+        student2: 'Aparna Mohanan',
+        s2_phone: 9946160084,
+        staff: '',
+        prize: true,
+        dept: 'ce',
+        reg: true,
+        group: false,
+        venue: 'Auditorium',
+        time: 'Full Day'
+    },
+    {
         event_id: 65,
         name: 'ONE PIECE',
         description: 'Embark on an exhilarating adventure with our treasure hunt—an immersive quest that blends cunning clues and hidden surprises. Unleash your inner explorer and unravel the mysteries to discover the ultimate prize, making every step a thrilling journey towards treasure!',
