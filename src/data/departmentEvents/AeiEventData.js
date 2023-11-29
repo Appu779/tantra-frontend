@@ -14,8 +14,8 @@ const AeiEventData = [
         dept:'aei',
         reg: true,
         group: true,
-        venue: '',
-        time: ''
+        venue: 'Gandhi statue premises',
+        time: '9:30 am-4:10 pm'
     },
     {
         event_id:182,
@@ -32,8 +32,8 @@ const AeiEventData = [
         dept:'aei',
         reg: true,
         group: true,
-        venue: '',
-        time: ''
+        venue: 'Gandhi statue premises',
+        time: '9:30 am-4:10 pm'
 
     },
     {
@@ -51,8 +51,8 @@ const AeiEventData = [
         dept:'aei',
         reg: true,
         group: true,
-        venue: '',
-        time: ''
+        venue: 'NearGandhi statue',
+        time: '10:30 am-12:30 pm'
     },
     {
         event_id:184,
@@ -69,8 +69,8 @@ const AeiEventData = [
         dept:'aei',
         reg: true,
         group: false,
-        venue: '',
-        time: ''
+        venue: 'Near Gandhi statue ',
+        time: '10:30 am-12:30 pm'
     },
     {
         event_id:185,
@@ -87,8 +87,8 @@ const AeiEventData = [
         dept:'aei',
         reg: true,
         group: true,
-        venue: '',
-        time: ''
+        venue: 'Near Gandhi statue',
+        time: '11:00 am - 1:00 pm'
     },
     {
         event_id:186,
@@ -105,8 +105,8 @@ const AeiEventData = [
         dept:'aei',
         reg: true,
         group: false,
-        venue: '',
-        time: ''
+        venue: 'S7 AEI classroom',
+        time: '12.00 pm-1:00 pm'
     },
     {
         event_id:187,
@@ -123,8 +123,8 @@ const AeiEventData = [
         dept:'aei',
         reg: true,
         group: false,
-        venue: '',
-        time: ''
+        venue: 'S3 AEI classroom',
+        time: '1:00 pm-3:00 pm'
     },
     {
         event_id:188,
@@ -141,8 +141,8 @@ const AeiEventData = [
         dept:'aei',
         reg: true,
         group: true,
-        venue: '',
-        time: ''
+        venue: 'S5 AEI classroom',
+        time: '1:00 pm -3:00 pm'
     },
     {
         event_id:189,
@@ -159,8 +159,8 @@ const AeiEventData = [
         dept:'aei',
         reg: true,
         group: false,
-        venue: '',
-        time: ''
+        venue: 'Electronics lab',
+        time: '12:00 pm -1:00 pm'
     },
     {
         event_id:190,
@@ -177,8 +177,8 @@ const AeiEventData = [
         dept:'aei',
         reg: true,
         group: false,
-        venue: '',
-        time: ''
+        venue: 'Electronics lab',
+        time: '11:00 am - 12:00 pm'
     },
     {
         event_id:191,
@@ -195,8 +195,8 @@ const AeiEventData = [
         dept:'aei',
         reg: true,
         group: false,
-        venue: '',
-        time: ''
+        venue: 'Research Lab',
+        time: '2:00 pm-3:00 pm'
     },
 ];
 
