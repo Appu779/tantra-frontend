@@ -260,7 +260,7 @@ const CseEventData = [
     staff: "Ms. Diya ",
     prize: true,
     dept: "cse",
-    reg: true,
+    reg: false,
     group: true,
     venue: "M. Tech Classroom,Admin BLOCK, 2nd Floor",
     time: "10:30 AM",
