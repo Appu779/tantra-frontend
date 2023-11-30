@@ -206,6 +206,7 @@ function RegisterB() {
                                                 {fee !== 'FREE' && fee !== '' ?
                                                     <div>
                                                         FEE: Rs. {fee}
+                                                        <div className='text-red-500 text-base font-bold'>Qr must be used for event registration only*</div>
                                                         <div className='text-red-500 text-base font-bold'>Transfer the amount to the account mentioned below: *</div>
                                                         <div className='flex'>
                                                             <div className='flex-1 font-bold'>
