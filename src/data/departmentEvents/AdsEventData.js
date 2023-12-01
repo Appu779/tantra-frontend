@@ -1,5 +1,23 @@
 const AdsEventData = [
     {
+        event_id:152,
+        name: 'Code hunters ',
+        description: 'The Epic Quest for Hidden Treasures are here. Solve the Aptitude questions to obtain the clues. Use your skills to decode the clues and Reach the Destinations. So     Are you ready for this task.  Group(4 members)',
+        event_type: 'Treasure hunt ',
+        fee: 30,
+        student1: ' Nixon ',
+        s1_phone: 7510275707,
+        student2: 'Alfin',
+        s2_phone: 8157804064,
+        staff: 'Ms.Soumya Thomas ',
+        prize: true,
+        dept:'ads',
+        reg: true,
+        group: true,
+        venue: 'S3 ADS',
+        time: '11:30-2:00'
+    },
+    {
         event_id:141,
         name: 'GNIDOC',
         description: 'Participants have to find solution for a given problem.Programming language will be either Python or C.',
@@ -88,7 +106,7 @@ const AdsEventData = [
         staff: 'Ms.Rahna C M',
         prize: true,
         dept: 'cse',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'S5 CSE B,Admin Block, 2nd floor',
         time: '10:00 AM - 3:00 PM'
@@ -201,24 +219,7 @@ const AdsEventData = [
         venue: 'Software Lab, Admin Block, 1st floor',
         time: '3:30-4:00 PM'
     },
-    {
-        event_id:152,
-        name: 'Code hunters ',
-        description: '5 groups: Each group consists of 4 members ',
-        event_type: 'Treasure hunt ',
-        fee: 30,
-        student1: ' Nixon ',
-        s1_phone: 7510275707,
-        student2: 'Alfin',
-        s2_phone: 8157804064,
-        staff: 'Ms.Soumya Thomas ',
-        prize: true,
-        dept:'ads',
-        reg: true,
-        group: true,
-        venue: 'S3 ADS',
-        time: '11:30-2:00'
-    }
+   
 ];
 
 export default AdsEventData;
