@@ -638,6 +638,22 @@ const EeeEventData = [
         venue: 'Measurement Lab',
         time: '20:00 PM',
     },
+    {
+        event_id: 218,
+        name: 'PESS',
+        description: 'Pess mobile gaming',
+        event_type: 'Game',
+        fee: 50,
+        student1: 'Vyshanav M K',
+        s1_phone: 8157925467,
+        staff: 'Ms. Teena George',
+        prize: true,
+        dept: 'eee',
+        reg: true,
+        group: false,
+        venue: 'online',
+        time: '',
+    },
 
 ];
 
