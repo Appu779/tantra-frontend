@@ -12,7 +12,7 @@ const CsbsEventData = [
         staff: 'Mr. Muhammed Shefeek',
         prize: true,
         dept: 'csbs',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'G9 S3 CEBS,Ground floor,ADMIN BLOCK',
         time: '10:00 AM-03:00 PM'
@@ -31,7 +31,7 @@ const CsbsEventData = [
         staff: 'Ms.Namitha P',
         prize: true,
         dept: 'csbs',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Central Bascket ball court and Ground floor',
         time: '09:30 AM-1:00 PM'
@@ -50,7 +50,7 @@ const CsbsEventData = [
         staff: 'Ms.Ashmila',
         prize: true,
         dept: 'csbs',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'G8 S7 ADS,Ground floor, Admin block',
         time: '10:00 AM-3:00 PM'

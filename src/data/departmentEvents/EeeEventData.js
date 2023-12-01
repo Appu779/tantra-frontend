@@ -12,7 +12,7 @@ const EeeEventData = [
         staff: 'Tutors',
         prize: true,
         dept: 'eee',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Machines Lab,Admin Block,1st Floor',
         time: '10:00 AM-3:00 PM'
@@ -30,7 +30,7 @@ const EeeEventData = [
         staff: ' Ms. Tintu George',
         prize: true,
         dept: 'eee',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'MCQ',
         time: '11:00 AM-11:15 AM'
@@ -48,7 +48,7 @@ const EeeEventData = [
         staff: ' Mr. Prabin James',
         prize: true,
         dept: 'eee',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Google Meet',
         time: '10:00 AM-11:00 AM'
@@ -66,7 +66,7 @@ const EeeEventData = [
         staff: 'Ms. Tintu George ',
         prize: true,
         dept: 'eee',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'S7 EEE,Admin Block,1st Floor',
         time: '10:00 AM-12:00 PM'
@@ -84,7 +84,7 @@ const EeeEventData = [
         staff: 'Ms. Tintu George',
         prize: true,
         dept: 'eee',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Google Meet',
         time: '11:00 AM-12:00 PM'
@@ -102,7 +102,7 @@ const EeeEventData = [
         staff: 'Mr.Rijoy G N',
         prize: true,
         dept: 'eee',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Google Meet',
         time: '12:00 PM-1:00 PM'
@@ -120,7 +120,7 @@ const EeeEventData = [
         staff: 'Mr. Rijoy G N',
         prize: true,
         dept: 'eee',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Basic Electrical Workshop Lab',
         time: '10:30 AM-11:00 AM'
@@ -138,7 +138,7 @@ const EeeEventData = [
         staff: 'Mr. Rijoy G N',
         prize: true,
         dept: 'eee',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Basic Electrical Workshop Lab',
         time: '10:30 AM-11:00 AM'
@@ -633,7 +633,7 @@ const EeeEventData = [
         staff: 'Ms. Teena George',
         prize: true,
         dept: 'eee',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Measurement Lab',
         time: '20:00 PM',

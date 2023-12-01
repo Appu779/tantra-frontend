@@ -12,7 +12,7 @@ const EceEventData = [
         staff: '',
         prize: false,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Analog Electronics Lab',
         time: '9:30 AM-4:10 PM'
@@ -30,7 +30,7 @@ const EceEventData = [
         staff: '',
         prize: true,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Analog Electronics Lab',
         time: '9:30 AM-2:00 PM'
@@ -49,7 +49,7 @@ const EceEventData = [
         staff: '',
         prize: false,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Advanced Communication Lab',
         time: '9:00 AM-10:30 PM'
@@ -67,7 +67,7 @@ const EceEventData = [
         staff: '',
         prize: true,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Ground Floor, EC Block',
         time: '9:00 AM-4:00 PM'
@@ -85,7 +85,7 @@ const EceEventData = [
         staff: '',
         prize: true,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Research Lab',
         time: '10:00 AM-1:00 PM'
@@ -103,7 +103,7 @@ const EceEventData = [
         staff: '',
         prize: false,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Analog Integrated Lab',
         time: '10:00 AM-1:00 PM'
@@ -121,7 +121,7 @@ const EceEventData = [
         staff: '',
         prize: false,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Logic Circuit Design Lab',
         time: '11:30 AM-1:00 PM'
@@ -139,7 +139,7 @@ const EceEventData = [
         staff: '',
         prize: true,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Tutorial Room (UG)',
         time: '2:00 PM-4:00 PM'
@@ -157,7 +157,7 @@ const EceEventData = [
         staff: '',
         prize: true,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Research Lab',
         time: '9:30 AM-11:00 AM'
@@ -175,7 +175,7 @@ const EceEventData = [
         staff: '',
         prize: false,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Ground Floor, EC Block',
         time: '9:30 AM-4:10 PM'
@@ -193,7 +193,7 @@ const EceEventData = [
         staff: '',
         prize: true,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Advanced Communication Lab',
         time: '2:00 PM-4:00 PM'
@@ -211,7 +211,7 @@ const EceEventData = [
         staff: '',
         prize: false,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Communication Engineering Lab',
         time: '11:30 AM-12:30 PM'
@@ -229,7 +229,7 @@ const EceEventData = [
         staff: '',
         prize: true,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Advanced Communication Lab',
         time: '11:00 AM-1:00 PM'
@@ -247,7 +247,7 @@ const EceEventData = [
         staff: '',
         prize: false,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Intel Galileo Lab',
         time: '9:30 AM-12:00 PM'
@@ -265,7 +265,7 @@ const EceEventData = [
         staff: '',
         prize: true,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Ground Floor, EC Block',
         time: '9:30 AM-12:00 PM'
@@ -283,7 +283,7 @@ const EceEventData = [
         staff: '',
         prize: true,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Communication Engineering Lab',
         time: '9:30 AM-11:00 AM'
@@ -301,7 +301,7 @@ const EceEventData = [
         staff: '',
         prize: false,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Logic Circuit Design Lab',
         time: '9:30 AM-11:00 AM'
@@ -319,7 +319,7 @@ const EceEventData = [
         staff: '',
         prize: false,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'S3 ECE Block',
         time: '9:30 AM-4:10  PM'
@@ -337,7 +337,7 @@ const EceEventData = [
         staff: '',
         prize: false,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'S5 ECE Block',
         time: '9:30 AM-4:10 PM'
@@ -355,7 +355,7 @@ const EceEventData = [
         staff: '',
         prize: false,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'S3 ECE',
         time: '9:30 AM-4:10 PM'
@@ -373,7 +373,7 @@ const EceEventData = [
         staff: '',
         prize: false,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'F5 ECE Block',
         time: '9:30 AM-4:10 PM'
@@ -391,7 +391,7 @@ const EceEventData = [
         staff: '',
         prize: false,
         dept: 'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'S7 ECE',
         time: '9:30 AM-4:10 PM'

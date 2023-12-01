@@ -12,7 +12,7 @@ const AeiEventData = [
         staff: 'Mr. Thomas M S',
         prize: true,
         dept:'aei',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Gandhi statue premises',
         time: '9:30 am-4:10 pm'
@@ -30,7 +30,7 @@ const AeiEventData = [
         staff: 'Mr. Jollykutty Sebastian',
         prize: false,
         dept:'aei',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Gandhi statue premises',
         time: '9:30 am-4:10 pm'
@@ -49,7 +49,7 @@ const AeiEventData = [
         staff: 'Mr. Shinu M M',
         prize: true,
         dept:'aei',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'NearGandhi statue',
         time: '10:30 am-12:30 pm'
@@ -67,7 +67,7 @@ const AeiEventData = [
         staff: 'Mr. Shinu M M',
         prize: true,
         dept:'aei',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Near Gandhi statue ',
         time: '10:30 am-12:30 pm'
@@ -85,7 +85,7 @@ const AeiEventData = [
         staff: 'Mrs. Jinsa Mathew',
         prize: true,
         dept:'aei',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Near Gandhi statue',
         time: '11:00 am - 1:00 pm'
@@ -103,7 +103,7 @@ const AeiEventData = [
         staff: 'Mrs. Reshma K V',
         prize: true,
         dept:'aei',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'S7 AEI classroom',
         time: '12.00 pm-1:00 pm'
@@ -121,7 +121,7 @@ const AeiEventData = [
         staff: 'Mrs. Reshma K V',
         prize: true,
         dept:'aei',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'S3 AEI classroom',
         time: '1:00 pm-3:00 pm'
@@ -139,7 +139,7 @@ const AeiEventData = [
         staff: 'Mrs. Jinsa Mathew',
         prize: true,
         dept:'aei',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'S5 AEI classroom',
         time: '1:00 pm -3:00 pm'
@@ -157,7 +157,7 @@ const AeiEventData = [
         staff: 'Mrs. Shamya M',
         prize: true,
         dept:'aei',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Electronics lab',
         time: '12:00 pm -1:00 pm'
@@ -175,7 +175,7 @@ const AeiEventData = [
         staff: 'Mrs. Shamya A',
         prize: true,
         dept:'aei',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Electronics lab',
         time: '11:00 am - 12:00 pm'
@@ -193,7 +193,7 @@ const AeiEventData = [
         staff: 'Mr. Dhanoj M',
         prize: true,
         dept:'aei',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Research Lab',
         time: '2:00 pm-3:00 pm'

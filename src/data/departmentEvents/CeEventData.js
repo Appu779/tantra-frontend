@@ -12,7 +12,7 @@ const CeEventData = [
         staff: 'Mr. Midhun Krishnan ',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Auditorium',
         time: 'Full Day'
@@ -30,7 +30,7 @@ const CeEventData = [
         staff: 'Mr. Logi N Boby',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Auditorium',
         time: 'Full Day'
@@ -49,7 +49,7 @@ const CeEventData = [
         staff: 'Ms. Anitta Jose ',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Auditorium',
         time: 'Full Day'
@@ -67,7 +67,7 @@ const CeEventData = [
         staff: 'Mr. Saneesh K ',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Auditorium',
         time: 'Full Day'
@@ -85,7 +85,7 @@ const CeEventData = [
         staff: '',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Auditorium',
         time: 'Full Day'
@@ -103,7 +103,7 @@ const CeEventData = [
         staff: 'Ms. Aswathi ',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Auditorium',
         time: '11:00 AM-1:00 PM'
@@ -121,7 +121,7 @@ const CeEventData = [
         staff: 'Ms. Hridya P  ',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'S7 CE-B',
         time: '10:00 AM-11:00 AM'
@@ -139,7 +139,7 @@ const CeEventData = [
         staff: 'Ms. Athira Rajendran  ',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Auditorium',
         time: '02:00 PM-03:00 PM'
@@ -157,7 +157,7 @@ const CeEventData = [
         staff: 'Fr. Tony ',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Auditorium',
         time: 'Full Day'
@@ -175,7 +175,7 @@ const CeEventData = [
         staff: 'Ms. Anitha Babu ',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Auditorium',
         time: 'Full Day'
@@ -193,7 +193,7 @@ const CeEventData = [
         staff: 'Ms. Sinai Michel ',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Auditorium',
         time: 'Full Day'
@@ -211,7 +211,7 @@ const CeEventData = [
         staff: 'Ms. Anuragi ',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Auditorium',
         time: 'Full Day'
@@ -229,7 +229,7 @@ const CeEventData = [
         staff: 'Ms. Resmitha Rani Antony ',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Auditorium',
         time: 'Full Day'
@@ -247,7 +247,7 @@ const CeEventData = [
         staff: 'Mr. Logi N Boby  ',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Auditorium',
         time: 'Full Day'
@@ -265,7 +265,7 @@ const CeEventData = [
         staff: 'Mr. Midhun Krishnan  ',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Auditorium',
         time: 'Full Day'
@@ -283,7 +283,7 @@ const CeEventData = [
         staff: 'Mr. Saneesh K  ',
         prize: true,
         dept: 'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Auditorium',
         time: 'Full Day'

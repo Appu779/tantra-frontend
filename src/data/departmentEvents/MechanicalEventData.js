@@ -12,7 +12,7 @@ const MechanicalEventData = [
         staff: 'Mr. Anil Johney',
         prize: true,
         dept:'me',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'CAD Lab ME Dept, 4th floor',
         time: '11.00 AM'
@@ -30,7 +30,7 @@ const MechanicalEventData = [
         staff: 'Mr. Saju Augustine',
         prize: true,
         dept:'me',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Production lab',
         time: '11:30 AM'
@@ -49,7 +49,7 @@ const MechanicalEventData = [
         staff: 'Mr. Shamin Muth KK',
         prize: false,
         dept:'me',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'College play ground',
         time: '02:00 PM'
@@ -68,7 +68,7 @@ const MechanicalEventData = [
         staff: 'Dr. Sridharan',
         prize: true,
         dept:'me',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'S7 ME, Ground Floor',
         time: '01:00 PM'
@@ -87,7 +87,7 @@ const MechanicalEventData = [
         staff: 'Mr. Vyshakh M',
         prize: true,
         dept:'me',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Parking lot,ME,Ground floor',
         time: '12:00 PM'
@@ -106,7 +106,7 @@ const MechanicalEventData = [
         staff: 'Mr. Ryne PM,',
         prize: true,
         dept:'me',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'S7 ME-B,Ground floor',
         time: '9:00 AM'
@@ -126,7 +126,7 @@ const MechanicalEventData = [
         staff: 'Mr. Shamin Muth KK,',
         prize: false,
         dept:'me',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Basketball court.',
         time: '01:00 PM'
@@ -145,7 +145,7 @@ const MechanicalEventData = [
         staff: 'Mr. Jayachandran',
         prize: false,
         dept:'me',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'S5 ME-A,Ground floor.',
         time: '10:00 AM'
@@ -163,7 +163,7 @@ const MechanicalEventData = [
         staff: 'Mr. Robin CR',
         prize: true,
         dept:'me',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'College play ground.',
         time: '10:00 AM'
@@ -183,7 +183,7 @@ const MechanicalEventData = [
         staff: ' Mr. Aji Augustine',
         prize: true,
         dept:'me',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'College auditorium.',
         time: '01:45 PM'
@@ -201,7 +201,7 @@ const MechanicalEventData = [
         staff: 'Mr. Appu Kurian',
         prize: false,
         dept:'me',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'S3 ME,1st Floor.',
         time: '11:00 AM'
@@ -220,7 +220,7 @@ const MechanicalEventData = [
         staff: ' Mr. Midhun Mukundan',
         prize: false,
         dept:'me',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'BME Workshop, Near canteen.',
         time: '11:30 AM'
@@ -239,7 +239,7 @@ const MechanicalEventData = [
         staff: 'Mr. Shamin Muth KK',
         prize: false,
         dept:'me',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'S5 ME, Ground floor.',
         time: '11:30 AM'
@@ -258,7 +258,7 @@ const MechanicalEventData = [
         staff: 'Mr. Ramprasidh',
         prize: false,
         dept:'me',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'S7 ME B, Ground floor.',
         time: '10:00 AM'
@@ -277,7 +277,7 @@ const MechanicalEventData = [
         staff: 'Mr. Robin CR',
         prize: false,
         dept:'me',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'S5 ME,Ground Floor',
         time: '1:30 PM'

@@ -12,7 +12,7 @@ const CscyEventData = [
         staff: 'Ms.Amrutha P M',
         prize: true,
         dept: 'cscy',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'T20A, Admin Block, 3rd floor',
         time: '09.30 AM'
@@ -30,7 +30,7 @@ const CscyEventData = [
         staff: 'Ms.Amrutha P M',
         prize: true,
         dept: 'cscy',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Drawing Hall, Admin Block, 3rd floor',
         time: '10:00 AM'
@@ -49,7 +49,7 @@ const CscyEventData = [
         staff: 'Ms.Amrutha P M',
         prize: true,
         dept: 'cscy',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'ACRC LAB, Admin Block, 2nd floor',
         time: '14:00'
@@ -67,7 +67,7 @@ const CscyEventData = [
         staff: 'Ms.Anu Treesa George',
         prize: true,
         dept: 'cscy',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'T20B,admin block',
         time: '10:00 AM'
@@ -85,7 +85,7 @@ const CscyEventData = [
         staff: 'Ms.Anu Treesa George',
         prize: true,
         dept: 'cscy',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'ACRC lab,admin block,2nd floor',
         time: '10:00 AM'
@@ -103,7 +103,7 @@ const CscyEventData = [
         staff: 'Ms.Amrutha P M',
         prize: true,
         dept: 'cscy',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'T20A,admin block,3rd floor',
         time: '12:45 PM'
@@ -121,7 +121,7 @@ const CscyEventData = [
         staff: 'Ms.Anu Treesa George',
         prize: true,
         dept: 'cscy',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'BASKETBALL COURT ',
         time: '13:30 PM'
@@ -139,7 +139,7 @@ const CscyEventData = [
         staff: 'Ms.Amrutha P M ',
         prize: true,
         dept: 'cscy',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'T20B',
         time: '12:45 PM'
@@ -158,7 +158,7 @@ const CscyEventData = [
         staff: 'Ms.Anu Treesa George',
         prize: true,
         dept: 'cscy',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Drawing Hall,Admin block,3rd floor',
         time: '10:00 AM'
@@ -176,7 +176,7 @@ const CscyEventData = [
         staff: 'Sr.Reema Jose ',
         prize: true,
         dept: 'cscy',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Drawing Hall,Admin block,3rd floor',
         time: '10:00 AM'
@@ -194,7 +194,7 @@ const CscyEventData = [
         staff: 'Sr.Reema Jose ',
         prize: true,
         dept: 'cscy',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Drawing Hall,Admin block,3rd floor',
         time: '12:45 PM'
@@ -212,7 +212,7 @@ const CscyEventData = [
         staff: 'Sr.Reema Jose ',
         prize: true,
         dept: 'cscy',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'ACRC Lab',
         time: '15:00 PM'
@@ -230,7 +230,7 @@ const CscyEventData = [
         staff: 'Sr.Reema Jose ',
         prize: true,
         dept: 'cscy',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Drawing Hall,Admin block,3rd floor',
         time: '10:00 AM',
@@ -249,7 +249,7 @@ const CscyEventData = [
         staff: 'Sr.Reema Jose ',
         prize: true,
         dept: 'cscy',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Drawing Hall,Admin block,3rd floor',
         time: '12:45 PM'

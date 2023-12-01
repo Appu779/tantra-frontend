@@ -12,7 +12,7 @@ const AdsEventData = [
         staff: 'Ms.Soumya Thomas ',
         prize: true,
         dept:'ads',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'S3 ADS',
         time: '11:30-2:00'
@@ -30,7 +30,7 @@ const AdsEventData = [
         staff: 'Ms.Jijina MT',
         prize: true,
         dept:'ads',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Hardware Lab, Admin Block, 2nd floor',
         time: '9:30 AM-11:30 AM '
@@ -48,7 +48,7 @@ const AdsEventData = [
         staff: 'Ms.Jissin',
         prize: true,
         dept:'ads',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Software Lab, Admin Block, 1st floor',
         time: '9:30 AM-10:30 AM '
@@ -68,7 +68,7 @@ const AdsEventData = [
         staff: 'Ms.Ancy K Sunny',
         prize: true,
         dept:'ads',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Software Lab, Admin Block, 1st floor',
         time: '10:30 AM-12:00 PM '
@@ -88,7 +88,7 @@ const AdsEventData = [
         staff: 'Ms.Shumaisa M P ',
         prize: true,
         dept:'ads',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Software Lab, Admin Block, 1st floor',
         time: '12:00 AM-2:00 PM'
@@ -124,7 +124,7 @@ const AdsEventData = [
         staff: 'Ms.Ancy K Sunny',
         prize: true,
         dept:'ads',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Hardware Lab, Admin Block, 2nd floor',
         time: '1.30 PM-2.15 PM'
@@ -142,7 +142,7 @@ const AdsEventData = [
         staff: 'Ms.Swathi Chandra',
         prize: true,
         dept:'ads',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Software Lab, Admin Block, 1st floor',
         time: '2:00-3:00 PM'
@@ -160,7 +160,7 @@ const AdsEventData = [
         staff: 'Ms.Anit',
         prize: true,
         dept:'ads',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Hardware Lab, Admin Block, 2nd floor',
         time: '2:15-3:00 PM'
@@ -178,7 +178,7 @@ const AdsEventData = [
         staff: 'Ms.Shumaisa M P',
         prize: true,
         dept:'ads',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Hardware Lab, Admin Block, 2nd floor',
         time: '3:00-3:45 PM'
@@ -196,7 +196,7 @@ const AdsEventData = [
         staff: 'Ms.Jijina MT',
         prize: true,
         dept:'ads',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Software Lab, Admin Block, 1st floor',
         time: '3:00-3:30 PM'
@@ -214,7 +214,7 @@ const AdsEventData = [
         staff: 'Ms.Swathi Chandra ',
         prize: true,
         dept:'ads',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Software Lab, Admin Block, 1st floor',
         time: '3:30-4:00 PM'
