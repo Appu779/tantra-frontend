@@ -3,9 +3,9 @@ const CsdEventData = [
     {
         event_id: 101,
         name: 'Posterholic',
-        description: 'Photo manipulation',
+        description: 'Using any software photo shop pre installed available',
         event_type: 'Competition',
-        fee: 50,
+        fee: "FREE",
         student1: 'Adithya Chandran',
         s1_phone: 8129657480,
         student2: 'Safa CH',
@@ -21,7 +21,7 @@ const CsdEventData = [
     {
         event_id: 102,
         name: 'Gamathon',
-        description: 'Game showcase.',
+        description: 'Exclusive gameplay developed by students of S5 CSD High score wins cash prize.',
         event_type: 'Competition',
         fee: 'FREE',
         student1: 'Ujwel c',
@@ -40,7 +40,7 @@ const CsdEventData = [
     {
         event_id: 103,
         name: 'Editormania',
-        description: 'Video editing using modern tools.',
+        description: 'Video editing competition with stock footage provided. Any software or mobile apps can be used.Premier pro pre-installed available.',
         event_type: 'Competition',
         fee: 50,
         student1: 'Jithin Jayaprakash',
@@ -88,7 +88,7 @@ const CsdEventData = [
         dept: 'csd',
         reg: true,
         group: false,
-        venue: 'Language lab, 2nd floor',
+        venue: 'S5 CSD',
         time: '09:00 AM-03:30 PM',
         spot: true
     },
@@ -115,7 +115,7 @@ const CsdEventData = [
     {
         event_id: 106,
         name: 'Dragonite',
-        description: 'Gaming using PC/ Mob.',
+        description: 'PC and console gaming.',
         event_type: 'Competition',
         fee: 'FREE',
         student1: 'Hisana EK',
@@ -127,13 +127,13 @@ const CsdEventData = [
         dept: 'csd',
         reg: true,
         group: true,
-        venue: 'Project Lab ',
+        venue: 'S5 CSD',
         time: '11:15 AM-12:15 PM'
     },
     {
         event_id: 107,
         name: 'Mini Militia',
-        description: 'Mobile Gaming',
+        description: '5v5(Capture the flag mod). 5v5 reg:100 solo reg:20.',
         event_type: 'Mobile Gaming',
         fee: 100,
         student1: 'Razi',
