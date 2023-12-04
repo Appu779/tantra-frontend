@@ -51,7 +51,7 @@ const CountDown = () => {
         </p>
       ) : (
         <p className="text-xl sm:text-3xl font-bold font-mono mb-4 bg-gray-900 rounded p-6 text-gray-400 flex gap-3 sm:gap-5">
-          Event is Live <span className="animate-pulse">...</span>
+          See you next year <span className="animate-pulse">...</span>
         </p>
       )}
       <div className="text-4xl sm:text-5xl font-bold font-mono text-gray-700 drop-shadow-lg shadow-black">
