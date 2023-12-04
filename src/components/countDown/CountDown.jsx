@@ -31,7 +31,7 @@ const CountDown = () => {
 
   return (
     <div className="text-center mt-8 text-black drop-shadow-2xl  sm:w-fit mx-auto sm:mx-0">
-      {time ? (
+      {time == 1 ? (
         <p className="text-xl sm:text-3xl font-bold font-mono mb-4 bg-gray-900 rounded p-6 text-gray-400 flex gap-3 sm:gap-5">
           <span className="bg-white p-1 px-2 rounded-sm text-gray-900 w-13">
             {time.days < 10 ? `0${time.days}` : time.days}
@@ -50,7 +50,9 @@ const CountDown = () => {
           </span>
         </p>
       ) : (
-        <p className="text-2xl font-bold mb-4">Countdown has ended!</p>
+        <p className="text-xl sm:text-3xl font-bold font-mono mb-4 bg-gray-900 rounded p-6 text-gray-400 flex gap-3 sm:gap-5">
+          Event is Live <span className="animate-pulse">...</span>
+        </p>
       )}
       <div className="text-4xl sm:text-5xl font-bold font-mono text-gray-700 drop-shadow-lg shadow-black">
         <span className="drop-shadow-2xl">DECEMBER 04</span>
