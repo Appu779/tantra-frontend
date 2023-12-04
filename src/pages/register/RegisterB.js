@@ -20,6 +20,10 @@ const branches = [
     'CSE', 'ME', 'AEI', 'ECE', 'ADS', 'CE', 'EEE', 'CSD', 'CSBS', 'CSCY', 'Other'
 ]
 
+const games = [
+    'Chess', 'Hand and Toes', 'Memory game', 'Balance me( nut )', 'Pyramid by glass', 'Filp cross xos', 'Bullseye', 'Efootball', 'Buzzwire', 'Penalty shootout', 'Cube solving'
+]
+
 const sem = [
     'S1', 'S3', 'S5', 'S7', 'NIL'
 ]
@@ -36,7 +40,7 @@ function RegisterB() {
     const url = "https://busy-plum-salmon-shoe.cyclic.app/register";
     const navigate = useNavigate();
     const { state } = useLocation();
-    const { name, fee, dept, event_id, group } = state;
+    const { name, fee, dept, event_id, group, student1, s1_phone } = state;
     const [disable, setDisable] = useState(false);
     const [netwarning, setNetWarning] = useState(false);
 
@@ -123,18 +127,33 @@ function RegisterB() {
                                                 <label for="email">Email *</label>
                                                 <input type="text" className="h-10 border mt-1 rounded px-4 w-full bg-white" placeholder="email@domain.com"  {...register('email')} />
                                             </div>
-
-                                            <div className="md:col-span-3">
-                                                <label for="address">Institute Name * </label>
-                                                <input type="text" className="h-10 border mt-1 rounded px-4 w-full bg-white" placeholder="Institute Name" {...register('college')} />
-                                            </div>
-
-                                            <div className="md:col-span-2">
-                                                <label for="city">Branch/Class *</label>
-                                                <Select options={branches} st={branch} setSt={setBranch} />
-                                            </div>
                                             {
-                                                event_id === 80 ? <div className="md:col-span-5">
+                                                event_id === 13 ?
+                                                    <div className="md:col-span-3">
+                                                        <label for="address">Team Name * </label>
+                                                        <input type="text" className="h-10 border mt-1 rounded px-4 w-full bg-white" placeholder="Team Name" {...register('college')} />
+                                                    </div>
+                                                    :
+                                                    <div className="md:col-span-3">
+                                                        <label for="address">Institute Name * </label>
+                                                        <input type="text" className="h-10 border mt-1 rounded px-4 w-full bg-white" placeholder="Institute Name" {...register('college')} />
+                                                    </div>
+                                            }
+                                            {
+                                                event_id === 30 ?
+                                                    <div className="md:col-span-2">
+                                                        <label for="city">Select game *</label>
+                                                        <Select options={games} st={branch} setSt={setBranch} />
+                                                    </div> :
+                                                    <div className="md:col-span-2">
+                                                        <label for="city">Branch/Class *</label>
+                                                        <Select options={branches} st={branch} setSt={setBranch} />
+                                                    </div>
+
+                                            }
+
+                                            {
+                                                event_id === 1000 ? <div className="md:col-span-5">
                                                     <label for="address">Please upload your document as your team name in PDF *</label>
                                                     <button className='btnbg h-10 border mt-1 rounded px-4 w-full text-white' onClick={() => {
                                                         openInNewTab(helleKopfeUrl);
@@ -159,40 +178,77 @@ function RegisterB() {
                                                 <label for="country">State *</label>
                                                 <Select options={states} st={stateName} setSt={setstateName} />
                                             </div>
+                                            {
+                                                event_id === 13 ? <div className="md:col-span-3">
+                                                    <label for="state">IGN *</label>
+                                                    <div className="h-10 bg-white flex border border-gray-200 rounded items-center mt-1">
+                                                        <input placeholder="in game name" className="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent"
+                                                            {...register('district')}
+                                                        />
+                                                    </div>
+                                                </div> :
+                                                    <div className="md:col-span-3">
+                                                        <label for="state">District *</label>
+                                                        <div className="h-10 bg-white flex border border-gray-200 rounded items-center mt-1">
+                                                            <input placeholder="District" className="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent"
+                                                                {...register('district')}
+                                                            />
+                                                        </div>
+                                                    </div>
+                                            }
+                                            {
+                                                event_id === 1 ?
+                                                    <div className='text-red-900 font-bold md:col-span-3'>Check the rules here: <a href="https://docs.google.com/document/d/1zboD0huEgHCwNr-J1aKITr2V8uywSrlx/edit?usp=sharing&ouid=106497037501910482479&rtpof=true&sd=true" target='_blank' className='text-blue-900'>Event Rules</a>  *</div>
+                                                    : null
 
-                                            <div className="md:col-span-3">
-                                                <label for="state">District *</label>
-                                                <div className="h-10 bg-white flex border border-gray-200 rounded items-center mt-1">
-                                                    <input placeholder="District" className="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent"
-                                                        {...register('district')}
-                                                    />
-                                                </div>
-                                            </div>
+                                            }
                                             <div className='md:col-span-5'>
-                                                {fee !== 'FREE' && fee !== '' && event_id !== 36 ?
-                                                    < div >
+                                                {fee !== 'FREE' && fee !== '' ?
+                                                    <div>
                                                         FEE: Rs. {fee}
-                                                        <div className='text-red-900'>Transfer the amount to the account mentioned below: *</div>
-                                                        <div>Name: {AccountsData[dept].name}</div>
-                                                        <div>A/c No: {AccountsData[dept].accountNo}</div>
-                                                        <div>IFSC: {AccountsData[dept].ifsc}</div>
-                                                        <div>BANK: {AccountsData[dept].bankName}</div>
+                                                        <div className='text-red-500 text-base font-bold'>Qr must be used for event registration only*</div>
+                                                        <div className='text-red-500 text-base font-bold'>Transfer the amount to the account mentioned below: *</div>
+                                                        <div className='flex'>
+                                                            <div className='flex-1 font-bold'>
+                                                                <div>Name: {AccountsData[dept].name}</div>
+                                                                <div>A/c No: {AccountsData[dept].accountNo}</div>
+                                                                <div>IFSC: {AccountsData[dept].ifsc}</div>
+                                                                <div>BANK: {AccountsData[dept].bankName}</div>
+                                                            </div>
+                                                            <div className='pr-9'>
+                                                                <img
+                                                                    src={AccountsData[dept].Qr}
+                                                                    alt="QR Code"
+                                                                    width="100"
+                                                                    height="100"
+                                                                />
+                                                            </div>
+                                                        </div>
+                                                        {
+                                                            event_id === 12 ?
+                                                                <div className='text-red-900 font-bold'>After payment fill this form: <a href="https://forms.gle/9ebV7KKypY58bQgC7" target='_blank' className='text-blue-900'>Team info form</a>  *</div>
+                                                                : null
+
+                                                        }
+                                                        <div className='text-red-500 text-sm font-bold'>Send Screenshot of payment to {student1} +91{s1_phone}  *</div>
                                                         <div className='mt-2'>
                                                             <label>Transaction ID: *</label>
-                                                            <input type="text" placeholder="Transaction ID" className="h-10 border mt-1 rounded px-4 w-full bg-white"
-                                                                {...register('tid')} required
+                                                            <input
+                                                                type="text"
+                                                                placeholder="Transaction ID"
+                                                                className="h-10 border mt-1 rounded px-4 w-full bg-white"
+                                                                {...register('tid')}
+                                                                required
                                                             />
-
                                                         </div>
                                                     </div> : null}
-
                                             </div>
                                             {warning ? <div className='p-1 text-red-600 md:col-span-5'>*Please fill all the fields.</div> : null}
                                             {netwarning ? <div className='p-1 text-red-600 font-bold md:col-span-5'>*Please check your network connection</div> : null}
 
                                             <div className="md:col-span-5 text-right">
                                                 <div className="inline-flex items-end">
-                                                    <button className='submit mr-5' onClick={() => { navigate(-1) }}>Cancel</button>
+                                                    <button type="button" className='submit mr-5' onClick={() => { navigate(-1) }}>Cancel</button>
                                                     <input type='submit' disabled={disable && !netwarning ? true : false} className='submit'></input>
                                                     <Backdrop sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }} open={disable && !netwarning}>
                                                         <CircularProgress color="inherit" />
