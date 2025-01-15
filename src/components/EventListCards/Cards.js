@@ -148,19 +148,32 @@ const GameCard = (props) => {
           </a>
 
           {/* Register Button */}
-          <button
-            onClick={() => navigate("/register", { state: eventData })}
-            className="absolute top-[70%] left-[9%] w-[52%] z-40"
-          >
-            <img
-              src={BUTTON}
-              alt="Register Button"
-              className="w-full h-full object-cover"
-            />
-            <span className="absolute inset-0 flex items-center justify-center text-black font-arcade_classic text-sm">
-              REGISTER
-            </span>
-          </button>
+          {eventData.reg ? (
+            <button
+              onClick={() => navigate("/register", { state: eventData })}
+              className="absolute top-[70%] left-[9%] w-[52%] z-40"
+            >
+              <img
+                src={BUTTON}
+                alt="Register Button"
+                className="w-full h-full object-cover"
+              />
+              <span className="absolute inset-0 flex items-center justify-center text-black font-arcade_classic text-sm">
+                REGISTER
+              </span>
+            </button>
+          ) : (
+            <button className="absolute top-[70%] left-[9%] w-[52%] z-40 cursor-not-allowed">
+              <img
+                src={BUTTON}
+                alt="Register Button"
+                className="w-full h-full object-cover"
+              />
+              <span className="absolute inset-0 flex items-center justify-center text-black font-arcade_classic text-sm">
+                Closed
+              </span>
+            </button>
+          )}
 
           {/* Inspect Button */}
           <button
@@ -227,24 +240,41 @@ const GameCard = (props) => {
           </div>
 
           {/* Register Button */}
-          <button
-            onClick={() => navigate("/register", { state: eventData })}
-            className="relative overflow-hidden top-[75%] left-[9%] w-[52%]
-            z-40"
-          >
-            <img
-              src={BUTTON}
-              alt="Register Button"
-              className="w-full h-full object-cover"
-            />
-            <span
-              className="absolute inset-0 flex items-center justify-center text-black font-arcade_classic text-sm"
+          {eventData.reg ? (
+            <button
               onClick={() => navigate("/register", { state: eventData })}
+              className="relative overflow-hidden top-[75%] left-[9%] w-[52%]
+            z-40"
             >
-              REGISTER
-            </span>
-            <div className="shine"></div>
-          </button>
+              <img
+                src={BUTTON}
+                alt="Register Button"
+                className="w-full h-full object-cover"
+              />
+              <span
+                className="absolute inset-0 flex items-center justify-center text-black font-arcade_classic text-sm"
+                onClick={() => navigate("/register", { state: eventData })}
+              >
+                REGISTER
+              </span>
+              <div className="shine"></div>
+            </button>
+          ) : (
+            <button
+              className="relative overflow-hidden top-[75%] left-[9%] w-[52%] 
+            z-40 cursor-not-allowed"
+            >
+              <img
+                src={BUTTON}
+                alt="Register Button"
+                className="w-full h-full object-cover"
+              />
+              <span className="absolute inset-0 flex items-center justify-center text-black font-arcade_classic text-sm">
+                Closed
+              </span>
+              <div className="shine"></div>
+            </button>
+          )}
 
           {/* Phone Icon on Back Face */}
           <a href={`tel:${s1_phone}`}>

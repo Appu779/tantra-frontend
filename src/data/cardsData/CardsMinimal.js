@@ -32,6 +32,14 @@ const CardsData = [
     explore: "/me-events",
   },
   {
+    imgsrc: ECE,
+    gif: FG,
+    // title: "Artificial Intelligence And Data Science",
+    title: "Artificial Intelligence",
+    text: "Events conducted by Department of Artificial Intelligence and Data Science",
+    explore: "/ads-events",
+  },
+  {
     imgsrc: CE,
     gif: BG,
     title: "Civil Engineering",
@@ -60,14 +68,7 @@ const CardsData = [
     text: "Events conducted by EEE Department",
     explore: "/eee-events",
   },
-  {
-    imgsrc: ECE,
-    gif: FG,
-    // title: "Artificial Intelligence And Data Science",
-    title: "Artificial Intelligence",
-    text: "Events conducted by Department of Artificial Intelligence and Data Science",
-    explore: "/ads-events",
-  },
+
   {
     imgsrc: CSD,
     gif: GG,
@@ -75,21 +76,28 @@ const CardsData = [
     text: "Events conducted by Department of Computer Science And Design",
     explore: "/csd-events",
   },
-  // {
-  //   imgsrc: CSBS,
-  //   gif: AG,
-  //   title: "Computer Science And Business",
-  //   text: "Events conducted by Department of Computer Science And Business",
-  //   explore: "/csbs-events",
-  // },
-  // {
-  //   imgsrc: CSCY,
-  //   gif: BG,
-  //   // title: "Computer Science And Cyber Security",
-  //   title: "Computer Science And Cyber",
-  //   text: "Events conducted by Department of Computer Science And Cyber Secuirity",
-  //   explore: "/cscy-events",
-  // },
+  {
+    imgsrc: CSBS,
+    gif: AG,
+    title: "Computer Science And Business",
+    text: "Events conducted by Department of Computer Science And Business",
+    explore: "/csbs-events",
+  },
+  {
+    imgsrc: CSCY,
+    gif: BG,
+    // title: "Computer Science And Cyber Security",
+    title: "Computer Science And Cyber",
+    text: "Events conducted by Department of Computer Science And Cyber Secuirity",
+    explore: "/cscy-events",
+  },
+  {
+    imgsrc: CS,
+    gif: GG,
+    title: "Common Events",
+    text: "Events conducted by Department of Computer Science And Cyber Secuirity",
+    explore: "/com-events",
+  },
 ];
 
 export default CardsData;

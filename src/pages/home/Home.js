@@ -8,18 +8,26 @@ import Loader from "../../components/Loader/Loader";
 import logo from "../../assets/logo/tantra.gif";
 
 function Home() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false); // Set loading to false after 3 seconds
-    }, 5000); // Adjust the timeout as needed
+    const lastLoadTime = sessionStorage.getItem("lastLoadTime");
+    const now = Date.now();
 
-    return () => clearTimeout(timer); // Cleanup timer on unmount
+    if (!lastLoadTime || now - lastLoadTime > 5 * 60 * 1000) {
+      setLoading(true);
+      sessionStorage.setItem("lastLoadTime", now);
+
+      setTimeout(
+        () =>{setLoading(false);}
+        , 5000);
+
+    }
   }, []);
+
   useEffect(() => {
     window.scrollTo(0, 0);
-  });
+  }, []);
 
   return (
     <>
@@ -48,3 +56,4 @@ function Home() {
 }
 
 export default Home;
+

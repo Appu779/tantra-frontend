@@ -24,8 +24,10 @@ const Navbar = () => {
     setCloseBtnSrc(ir);
   };
 
-  const handleEventsClick = (path) => {
-    navToggle();
+  const handleEventsClick = (path, n = true) => {
+    if (n == true) {
+      navToggle();
+    }
     if (location.pathname !== "/") {
       // Navigate to home page first if not already there
       navigate("/");
@@ -39,26 +41,32 @@ const Navbar = () => {
     }
   };
 
-  setTimeout(()=>{
-    const toggleButton = document.getElementById('nav-logo');
+  setTimeout(() => {
+    const toggleButton = document.getElementById("nav-logo");
     const wheth = window.location.href.split("/");
-    if( wheth.length == 4){
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > window.innerHeight && window.scrollY < (window.innerHeight * 2.8)) {
-        toggleButton.style.display = 'none'; // Hide the button
-      } else {
-        toggleButton.style.display = 'block'; // Show the button
-      }
-    });
+    if (wheth.length == 4) {
+      window.addEventListener("scroll", () => {
+        if (
+          window.scrollY > window.innerHeight &&
+          window.scrollY < window.innerHeight * 2.8
+        ) {
+          toggleButton.style.display = "none"; // Hide the button
+        } else {
+          toggleButton.style.display = "block"; // Show the button
+        }
+      });
     }
-
-  },500);
-
+  }, 500);
 
   return (
     <header>
       <nav className="nav">
-        <img id="nav-logo" src={nav_logo} alt="Logo" />
+        <img
+          id="nav-logo"
+          src={nav_logo}
+          alt="Logo"
+          onClick={() => handleEventsClick("home", false)}
+        />
         <div className="menu-and-logo cursor-pointer">
           <img id="nav-btn" src={navm} alt="Menu" onClick={navToggle} />
         </div>

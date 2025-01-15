@@ -107,9 +107,9 @@ const CsbsEventData = [
     event_id: 606,
     name: "Capture the Flag Tournament",
     description:
-      "Players bring Android devices and follow APK guidelines at the venue.",
+      "The Mini Militia Capture the Flag Tournament is an exciting multiplayer event where teams compete to capture the opponent's flag while defending their own team win prize of 1500",
     event_type: "Competition",
-    fee: "50",
+    fee: "100",
     student1: "Rohith",
     s1_phone: "9895872878",
     student2: "Adithraj",
@@ -129,7 +129,7 @@ const CsbsEventData = [
     description:
       "Participants identify computer parts in a box with 3 clues while balancing a small ball.",
     event_type: "Competition",
-    fee: "50",
+    fee: "10",
     student1: "Liya",
     s1_phone: "7012048445",
     student2: "Chithranjana",
@@ -149,7 +149,7 @@ const CsbsEventData = [
     description:
       "Participants type on their systems in semi-finals and finals based on typing speed.",
     event_type: "Competition",
-    fee: "70",
+    fee: "50",
     student1: "Sinan",
     s1_phone: "7558056472",
     student2: "Rasha",
@@ -167,9 +167,9 @@ const CsbsEventData = [
     event_id: 609,
     name: "Tech Costume Contest",
     description:
-      "Tech-themed costume contest where students dress up as gadgets, tech pioneers, or futuristic characters.",
+      "Unleash your creativity with our Al-Generated Costume Design Contest. This contest is a unique opportunity for artists,  creating captivating costume designs using Al tools.",
     event_type: "Competition",
-    fee: "50",
+    fee: "30",
     student1: "Mirfa",
     s1_phone: "7736702503",
     student2: "Saniya",
@@ -185,4 +185,3 @@ const CsbsEventData = [
   },
 ];
 export default CsbsEventData;
-

@@ -37,7 +37,7 @@ const CeEventData = [
     reg: true,
     group: true,
     venue: "Auditorium",
-    time: "10:30 AM TO 1:00 PM",
+    time: "10:30 AM - 1:00 PM",
     event_image: img14,
   },
   {
@@ -72,7 +72,7 @@ const CeEventData = [
     reg: true,
     group: true,
     venue: "Auditorium",
-    time: "11:30 AM TO 1:00 PM",
+    time: "11:30 AM - 1:00 PM",
     event_image: img6,
   },
   {
@@ -159,7 +159,7 @@ const CeEventData = [
     reg: true,
     group: true,
     venue: "Auditorium",
-    time: "10:30 AM TO 11: 30 AM",
+    time: "10:30 AM - 11:30 AM",
     event_image: img11,
   },
   {

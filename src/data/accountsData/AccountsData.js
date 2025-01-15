@@ -2,7 +2,8 @@ import AEI from "../../assets/qr/EI.png";
 import CE from "../../assets/qr/CE.png";
 import CS from "../../assets/qr/CS.png";
 import AD from "../../assets/qr/AD.png";
-// import CSCY from "../../assets/departments/cscy.svg";
+import CSBS from "../../assets/qr/CSBS.png";
+import CSCY from "../../assets/qr/CSCY.png";
 import CSD from "../../assets/qr/CSD.png";
 import ECE from "../../assets/qr/EC.png";
 import EEE from "../../assets/qr/EEE.png";
@@ -66,33 +67,26 @@ const AccountsData = {
     bankName: "Bank South Indian bank, Thalassery",
     qr: AD,
   },
-  ads: {
-    name: "HOD Artificial Intelligence",
-    accountNo: "0078053000079585",
-    ifsc: "SIBL0000078",
-    bankName: "Bank South Indian bank, Thalassery",
-    qr: AD,
-  },
   csbs: {
-    name: "--",
-    accountNo: "--",
-    ifsc: "--",
-    bankName: "--",
-    qr: RR,
+    name: "HOD CSBS",
+    // accountNo: "--",
+    // ifsc: "--",
+    // bankName: "--",
+    qr: CSBS,
   },
   cscy: {
-    name: "--",
-    accountNo: "--",
-    ifsc: "--",
-    bankName: "--",
-    qr: RR,
+    name: "HOD CSCY",
+    // accountNo: "--",
+    // ifsc: "--",
+    // bankName: "--",
+    qr: CSCY,
   },
-  // comm: {
-  //   name: "ash",
-  //   accountNo: "00",
-  //   ifsc: "ash",
-  //   bankName: "ash",
-  // },
+  comm: {
+    name: "",
+    accountNo: "",
+    ifsc: "",
+    bankName: "",
+  },
 };
 
 export default AccountsData;
