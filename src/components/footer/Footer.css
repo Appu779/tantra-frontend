@@ -1,8 +1,5 @@
-.footer {
-  width: 100%;
-  padding: 30px;
-  /* background-color: rgba(19, 19, 19, 0.8); */
-  background-color: rgb(218, 215, 215);
-  color: black;
-  font-family: "Quicksand";
+@media (min-width: 1025px) and (max-width: 1125px) {
+  .text-sm-custom {
+    font-size: 0.875rem; /* This corresponds to text-sm */
+  }
 }

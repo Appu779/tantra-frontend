@@ -1,3 +1,29 @@
+@import url("https://fonts.cdnfonts.com/css/arcade-classic");
+
+.shine {
+  position: absolute;
+  top: 0; /* Adjusted to start from the top */
+  left: -30%; /* Optional adjustment */
+  width: 150%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6); /* Solid white with some transparency */
+  animation: shine 1.5s infinite;
+  z-index: 20; /* Set higher z-index to ensure visibility */
+}
+
+.event_cards {
+  font-family: "ArcadeClassic" !important;
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(150%);
+  }
+}
+
 .mech_container {
   position: relative;
   display: flex;

@@ -1,4 +1,5 @@
-# Tantra 22
+# Tantra 24
+
 VJEC Techfest website
 
-https://techfest.vjec.ac.in/
+https://tantra.vjec.in

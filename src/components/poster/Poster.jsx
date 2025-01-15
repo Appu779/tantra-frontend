@@ -1,37 +1,80 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
-import Desktop from "../../assets/bg/des.png";
-import Mobile from "../../assets/bg/mob.png";
-import ParticlesComponent from "../particles/ParticlesComponent";
-import VideoPlayer from "../../components/videoPlayer/VideoPlayer";
-import logo from "../../assets/svg/tantra.svg";
-
+import crtImage from "../../assets/crt_land.png";
+import mobileVideo from "../../assets/videos/potrait.mp4";
+import desktopVideo from "../../assets/videos/landscape.mp4";
+import BouncingGame from "../BouncingGame/BouncingGame";
 import "./Poster.css";
+import Tantratitle from "../../assets/videos/pxArt.png";
 
 function Poster() {
-  let isMobileDevice = useMediaQuery({
+  const isMobileDevice = useMediaQuery({
     query: "(max-device-width: 500px)",
   });
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const vh = window.innerHeight;
+      const scrolled = window.scrollY;
+      const triggerPoint = vh * 0.25; // 20vh trigger point
+      const triggerPoint2 = vh * 0.2; // 20vh trigger point
+      const opacity =
+        scrolled >= triggerPoint
+          ? Math.max(1 - (scrolled - triggerPoint) / (vh * 0.09), 0)
+          : 1;
+      document.querySelector(".background-video").style.opacity = opacity;
+
+      if (scrolled >= triggerPoint2) {
+        document
+          .querySelector(".img-container")
+          .classList.add("scale-on-scroll");
+      } else {
+        document
+          .querySelector(".img-container")
+          .classList.remove("scale-on-scroll");
+      }
+
+      // Add fade-in effect for the "Meet you on 8 Nov" text
+      const textTriggerPoint = vh * 0.4; // 50vh trigger point
+      const textElement = document.querySelector(".fade-text");
+      if (textElement) {
+        if (scrolled >= textTriggerPoint && scrolled < vh * 1.5) {
+          textElement.style.opacity = 1;
+          textElement.style.transform = "translateY(0)";
+        } else {
+          textElement.style.opacity = 0;
+          textElement.style.transform = "translateY(50px)";
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div>
-      {/* <div className='absolute top-[90px]'><ParticlesComponent className='part' /></div> */}
-      <div className="particle_div ">
-        <ParticlesComponent className="part" />
+    <div className="fill">
+      <video
+        className="background-video"
+        autoPlay
+        muted
+        loop
+        playsInline
+        src={isMobileDevice ? mobileVideo : desktopVideo}
+      ></video>
+      <img src={Tantratitle} id="Tantratitle" alt="Above CRT" />
+      <div className="img-container fade-up max-sm:pb-60">
+        <img
+          src={crtImage}
+          className="svg-logo max-sm:scale-75"
+          alt="CRT Image"
+        />
+        <div className="bouncing-game-container">
+          <BouncingGame />
+        </div>
       </div>
-      {/* <div id="tsparticles"></div> */}
-      <div className="fill">
-        {isMobileDevice ? (
-          <img src={Mobile} alt="poster" className="intro_image" />
-        ) : (
-          <img src={Desktop} alt="poster" className="intro_image" />
-        )}
-      </div>
-      <div className="absolute w-[100%] top-[50vh] sm:top-[45vh] -mt-[152px] text-center">
-        <img src={logo} className="svg_logo" alt="" />
-      </div>
-      <div>
-        <VideoPlayer />
+      <div className="fade-text">
+        Meet you on <span className="text-gray-300 animate-pulse">8 Nov</span>
       </div>
     </div>
   );

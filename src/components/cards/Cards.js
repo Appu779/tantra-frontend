@@ -1,24 +1,29 @@
 import React from "react";
-
 import "./Cards.css";
-import WorkCard from "./EventCard";
+import DepCard from "./EventCard";
 import CardsData from "../../data/cardsData/CardsMinimal";
+import green from "../../assets/music_band/diag multi colored 1.png";
 
 function Cards() {
   return (
-    <div className=" mx-auto py-20">
-      <h1 className="text-center font-mono font-bold text-gray-400 text-6xl sm:text-8xl">
+    <div className="bg-[#090E41]">
+      {/* Full-width image at the top with no margin or padding */}
+      <img src={green} alt="Decorative Top Image" className="w-full" />
+
+      <h1 className="text-center pt-40 font-bold text-gray-200 text-6xl sm:text-8xl arca mt-0">
         Events
       </h1>
-      <div className="flex flex-col my-14 mx-10 md:px-20 lg:px-40">
+
+      <div className="flex flex-col py-14 mx-5 md:px-20 lg:px-40 cont-wrap">
         {CardsData.map((value, index) => {
           return (
-            <WorkCard
+            <DepCard
               key={index}
               imgsrc={value.imgsrc}
               title={value.title}
               text={value.text}
               view={value.view}
+              gurl={value.gif}
               explore={value.explore}
             />
           );

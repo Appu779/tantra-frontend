@@ -1,89 +1,117 @@
 import React, { useState } from "react";
-import Logo from "../../assets/logo/logo.png";
+import { useNavigate, useLocation } from "react-router-dom";
 import "./Navbar.css";
-import { Link } from "react-scroll";
-import { useNavigate } from "react-router-dom";
+import ir from "./icon_real.png";
+import inv from "./invert.png";
+import navm from "./nav_menu.png";
+import nav_logo from "./nav_logo.gif";
 
-function Navbar({ pg }) {
-  let navigate = useNavigate();
+const Navbar = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [navOpen, setNavOpen] = useState(false);
+  const [closeBtnSrc, setCloseBtnSrc] = useState(ir);
 
-  const [isOpen, setIsOpen] = useState(false);
-  const [color, setColor] = useState(false);
-  const [home, setHome] = useState(false);
+  const navToggle = () => {
+    setNavOpen(!navOpen);
+  };
 
-  const changeColor = () => {
-    if (window.scrollY >= 100) {
-      setHome(true);
-      setColor(true);
-      setIsOpen(false);
+  const changeSrcInvert = () => {
+    setCloseBtnSrc(inv);
+  };
+
+  const changeSrcReal = () => {
+    setCloseBtnSrc(ir);
+  };
+
+  const handleEventsClick = (path, n = true) => {
+    if (n == true) {
+      navToggle();
+    }
+    if (location.pathname !== "/") {
+      // Navigate to home page first if not already there
+      navigate("/");
+      // Use a slight delay to scroll after navigation completes
+      setTimeout(() => {
+        document.getElementById(path)?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
     } else {
-      setColor(false);
-      setHome(false);
+      // If already on the home page, scroll directly
+      document.getElementById(path)?.scrollIntoView({ behavior: "smooth" });
     }
   };
-  window.addEventListener("scroll", changeColor);
+
+  setTimeout(() => {
+    const toggleButton = document.getElementById("nav-logo");
+    const wheth = window.location.href.split("/");
+    if (wheth.length == 4) {
+      window.addEventListener("scroll", () => {
+        if (
+          window.scrollY > window.innerHeight &&
+          window.scrollY < window.innerHeight * 2.8
+        ) {
+          toggleButton.style.display = "none"; // Hide the button
+        } else {
+          toggleButton.style.display = "block"; // Show the button
+        }
+      });
+    }
+  }, 500);
 
   return (
-    <div className={color ? "Navbar Navbar-bg" : "Navbar"}>
-      <Link
-        smooth
-        spy
-        to="home"
-        style={{ cursor: "pointer", height: 100, width: 100 }}
-        onClick={() => {
-          navigate("/", { state: { load: true } });
-        }}
-      >
-        <img src={Logo} className="nav-logo scale-75" alt="logo" />
-      </Link>
-      <div className={`nav-items ${isOpen && "open"}`}>
-        {pg !== "ot" ? (
-          <>
-            {home && (
-              <Link smooth spy to="home" style={{ cursor: "pointer" }}>
-                Home
-              </Link>
-            )}
-            {/* <Link smooth spy to="" style={{ cursor: "pointer" }}>
-              About
-            </Link> */}
-            <Link smooth spy to="events" style={{ cursor: "pointer" }}>
-              Events
-            </Link>
-            {/* <Link smooth spy to="" style={{ cursor: "pointer" }}>
-              Gallery
-            </Link> */}
-            <Link smooth spy to="footer" style={{ cursor: "pointer" }}>
-              Contact Us
-            </Link>
-          </>
-        ) : (
-          <>
-            <Link
-              smooth
-              spy
-              to="home"
-              style={{ cursor: "pointer" }}
-              onClick={() => {
-                navigate("/", { state: { load: true } });
-              }}
-            >
-              Home
-            </Link>
-            <Link smooth spy to="footer" style={{ cursor: "pointer" }}>
-              Contact Us
-            </Link>
-          </>
-        )}
+    <header>
+      <nav className="nav">
+        <img
+          id="nav-logo"
+          src={nav_logo}
+          alt="Logo"
+          onClick={() => handleEventsClick("home", false)}
+        />
+        <div className="menu-and-logo cursor-pointer">
+          <img id="nav-btn" src={navm} alt="Menu" onClick={navToggle} />
+        </div>
+      </nav>
+      <div className={`nav-drop ${navOpen ? "toggle" : ""}`}>
+        <div className="nav-close-btn"></div>
+        <div className="nav-cont">
+          <div className="close-btn cursor-pointer">
+            <img
+              id="close-btn-btn"
+              src={closeBtnSrc}
+              alt="Close"
+              onClick={navToggle}
+              onMouseEnter={changeSrcInvert}
+              onMouseLeave={changeSrcReal}
+            />
+          </div>
+          <a
+            className="link-items arca"
+            onClick={() => handleEventsClick("home")}
+          >
+            <h1>HOME</h1>
+          </a>
+          <a
+            className="link-items arca"
+            onClick={() => handleEventsClick("events")}
+          >
+            <h1>EVENTS</h1>
+          </a>
+          <a
+            className="link-items arca"
+            onClick={() => handleEventsClick("musicBand")}
+          >
+            <h1>SHOWS</h1>
+          </a>
+          <a
+            className="link-items arca"
+            onClick={() => handleEventsClick("footer")}
+          >
+            <h1>CONTACT US</h1>
+          </a>
+        </div>
       </div>
-      <div
-        className={`nav-toggle ${isOpen && "open"}`}
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <div className="bar"></div>
-      </div>
-    </div>
+    </header>
   );
-}
+};
 
 export default Navbar;

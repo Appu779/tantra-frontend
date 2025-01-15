@@ -1,79 +1,101 @@
-import Mechanical from "../../assets/departments/mechanical.jpg";
-import Computer from "../../assets/departments/computer.jpg";
-import Civil from "../../assets/departments/civil.jpg";
-import ECE from "../../assets/departments/communication.jpg";
-import EEE from "../../assets/departments/electrical.jpg";
-import AEI from "../../assets/departments/instrumentation.jpg";
-import ASH from "../../assets/departments/humanities.jpg";
-import ADS from "../../assets/departments/artificial.jpg";
-import Games from "../../assets/departments/games.jpg";
+import AEI from "../../assets/departments/aei.svg";
+import CE from "../../assets/departments/ce.svg";
+import CS from "../../assets/departments/cs.svg";
+import CSBS from "../../assets/departments/csbs.svg";
+import CSCY from "../../assets/departments/cscy.svg";
+import CSD from "../../assets/departments/csd.svg";
+import ECE from "../../assets/departments/ec.svg";
+import EEE from "../../assets/departments/eee.svg";
+import ME from "../../assets/departments/mech.svg";
+
+import AG from "../../assets/departments/mechtrans_.gif";
+import BG from "../../assets/departments/adsgif.gif";
+import CG from "../../assets/departments/aeigif.gif";
+import DG from "../../assets/departments/cegif.gif";
+import EG from "../../assets/departments/csgif.gif";
+import FG from "../../assets/departments/csdgif.gif";
+import GG from "../../assets/departments/ecgif.gif";
 
 const CardsData = [
   {
-    imgsrc: Mechanical,
-    title: "Mechanical",
-    text: "Events conducted by Department of Mechanical Engineering",
-    explore: "/me-events",
-  },
-  {
-    imgsrc: Computer,
-    title: "Computer Science ",
+    imgsrc: EEE,
+    gif: EG,
+    title: "Computer Science Engineering",
     text: "Events conducted by Department of Computer Science and Engineering ",
     explore: "/cse-events",
   },
   {
-    imgsrc: Civil,
-    title: "Civil",
+    imgsrc: ME,
+    gif: AG,
+    title: "Mechanical Engineering",
+    text: "Events conducted by Department of Mechanical Engineering",
+    explore: "/me-events",
+  },
+  {
+    imgsrc: ECE,
+    gif: FG,
+    // title: "Artificial Intelligence And Data Science",
+    title: "Artificial Intelligence",
+    text: "Events conducted by Department of Artificial Intelligence and Data Science",
+    explore: "/ads-events",
+  },
+  {
+    imgsrc: CE,
+    gif: BG,
+    title: "Civil Engineering",
     text: "Events conducted by Department of Civil Engineering",
     explore: "/ce-events",
   },
   {
     imgsrc: ECE,
-    title: "Electronics & Communication",
+    gif: CG,
+    title: "Electronics And Communication",
     text: "Events conducted by Department of Electronics and Communication Engineering",
     explore: "/ece-events",
   },
   {
     imgsrc: AEI,
-    title: "Applied Electronics & Instrumentation",
+    gif: DG,
+    // title: "Applied Electronics And Instrumentation",
+    title: "Applied Electronics",
     text: "Events conducted by AEI Department",
     explore: "/aei-events",
   },
   {
     imgsrc: EEE,
-    title: "Electrical & Electronics",
+    gif: EG,
+    title: "Electrical And Electronics",
     text: "Events conducted by EEE Department",
     explore: "/eee-events",
   },
+
   {
-    imgsrc: ADS,
-    title: "Artificial Intelligence & Data Science",
-    text: "Events conducted by Department of Artificial Intelligence and Data Science",
-    explore: "/ads-events",
-  },
-  {
-    imgsrc: ADS,
+    imgsrc: CSD,
+    gif: GG,
     title: "Computer Science And Design",
     text: "Events conducted by Department of Computer Science And Design",
     explore: "/csd-events",
   },
   {
-    imgsrc: ADS,
+    imgsrc: CSBS,
+    gif: AG,
     title: "Computer Science And Business",
     text: "Events conducted by Department of Computer Science And Business",
     explore: "/csbs-events",
   },
   {
-    imgsrc: ADS,
-    title: "Computer Science And Cyber Security",
+    imgsrc: CSCY,
+    gif: BG,
+    // title: "Computer Science And Cyber Security",
+    title: "Computer Science And Cyber",
     text: "Events conducted by Department of Computer Science And Cyber Secuirity",
     explore: "/cscy-events",
   },
-
   {
-    imgsrc: Games,
+    imgsrc: CS,
+    gif: GG,
     title: "Common Events",
-    text: "Events common for all...",
+    text: "Events conducted by Department of Computer Science And Cyber Secuirity",
     explore: "/com-events",
   },
 ];

@@ -1,45 +1,218 @@
-.part {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 .fill {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* overflow: hidden; */
+  background: linear-gradient(180deg, #090e41 60%, #107800 100%);
+  height: 150vh;
+  overflow-y: auto; /* Changed to allow scrolling */
+  overflow-x: hidden;
+  position: relative;
+  /* -ms-overflow-style: none; 
+  scrollbar-width: none;  */
+}
+.fade-text {
+  position: absolute;
+  font-family: "Press Start 2P", cursive;
+  bottom: 0vh; /* Adjust as needed to position it before .fill ends */
+  text-align: center;
+  transform: translateX(-100px); /* Start from left offset */
+  font-size: 2rem;
+  padding: 0 10px;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  z-index: 2;
 }
 
-.intro_image {
+.fade-text.visible {
+  opacity: 1;
+  transform: translateX(0); /* End position */
+}
+
+.intro-image {
   width: 100vw;
   height: 100vh;
-  background-size: cover;
-  background-position: center;
   object-fit: cover;
 }
-
-.svg_logo {
-  max-width: 90%;
-  margin-left: calc(50% - 445px);
-}
-
-.particle_div {
+.background-video {
   position: absolute;
-  top: 10px;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+#Tantratitle {
+  position: absolute;
+  top: -650px;
+  left: 0;
+  scale: 0.4;
+  /* z-index: 5; */
 }
 
-@media screen and (max-width: 730px) {
-  .svg_logo {
-    max-width: 90%;
-    margin-left: 5%;
+.img-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  bottom: -60px;
+  transform-origin: center;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  will-change: transform, opacity;
+}
+
+/* Add scroll animation class */
+.img-container.scale-up {
+  transform: scale(2);
+  opacity: 0.5;
+}
+
+.svg-logo {
+  max-width: 90%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.bouncing-game-container {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.64);
+  width: 60%;
+  height: 100%;
+  min-width: 765px;
+  min-height: 190px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .svg-logo {
+    width: 80%;
   }
-  .particle_div {
-    position: absolute;
-    top: 50px;
-    left: 20px;
-    width: 90%;
-    height: 50vh;
+
+  .img-container {
+    scale: 1.2;
+    bottom: 80px;
   }
+
+  .bouncing-game-container {
+    position: relative;
+    left: 40%;
+    padding-top: 23px;
+    scale: 0.8;
+    width: 10%;
+    height: 10%;
+    max-width: 200px;
+    max-height: 150px;
+    margin-top: -430px;
+  }
+  #Tantratitle {
+    top: -10px;
+    scale: 0.8;
+  }
+}
+
+/* @media screen and (max-width: 2200px) {
+  .Tantratitle
+  {
+    top:8%;
+    scale: .5;
+  }
+} */
+
+@media screen and (max-width: 1000px) {
+  .Tantratitle {
+    top: 16%;
+    scale: 0.7;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .img-container {
+    scale: 0.5;
+    bottom: -100px;
+  }
+  .Tantratitle {
+    top: 8%;
+    scale: 0.5;
+  }
+  .Tantratitle {
+    top: 25%;
+    scale: 0.8;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .img-container {
+    scale: 1;
+    bottom: -96px;
+  }
+  .Tantratitle {
+    top: 25%;
+    scale: 0.8;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .img-container {
+    scale: 0.9;
+    bottom: -100px;
+  }
+}
+
+.fade-up {
+  animation: fadeInUp 1.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0.7;
+    transform: translateY(850px) scale(0.3);
+  }
+  60% {
+    opacity: 0.9;
+    transform: translateY(50px);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+/* Add these new classes to your existing CSS file */
+
+/* Make sure the fill div is scrollable */
+.fill {
+  min-height: 80vh; /* Added to allow scrolling */
+}
+
+/* New scale animation class - this won't interfere with fade-up */
+.scale-on-scroll {
+  animation: scaleUp 0.5s forwards;
+}
+
+/* New keyframes for scale animation */
+@keyframes scaleUp {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+/* Ensure the img-container can handle both animations */
+.img-container {
+  will-change: transform, opacity;
+  margin-top: -150px;
 }

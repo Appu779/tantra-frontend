@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@keyframes textGlow {
+    0% { text-shadow: 0px 0px 20px rgb(255, 255, 255); }
+    100% { text-shadow: 0px 0px 30px rgb(255, 255, 255); }
+}
+
+/* Add this to your CSS file */
+@media (max-width: 500px) {
+    .mobile-only {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 800px;
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 100, 1);
+      color: white;
+      font-size: 80px;
+      z-index: 5;
+    }
+  }
+  
+
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
